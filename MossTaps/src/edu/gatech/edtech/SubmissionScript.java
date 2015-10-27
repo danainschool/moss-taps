@@ -4,8 +4,8 @@ import java.util.List;
 
 public class SubmissionScript {
 
-	public SubmissionScript(ParametersStore pStore, Canon canon,
-			ProjectCollection current) {
+	public SubmissionScript(ParametersStore pStore, multiProjectCollection canon,
+			multiProjectCollection current) {
 		// TODO Auto-generated constructor stub
 	}
 
