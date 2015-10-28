@@ -3,8 +3,8 @@ package edu.gatech.edtech;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SoftwareProject {
+public class StudentProject {
 	String studentID;
 	String projectID;
-	List<String> files = new ArrayList<String>();
+	String studentFolderCurrent;
 }
