@@ -18,7 +18,7 @@ public class MossTaps {
 		//set up the current projects
 		current = new ProjectCollection(pStore.getCurrentFolder(),pStore.getUploadFolder());
 		//create the moji script
-		SubmissionScript ss = new SubmissionScript(pStore,canon, current);
+		SubmissionScripts ss = new SubmissionScripts(pStore, canon, current);
 		//submit the script and get the results url
 		MossResults results = ss.submit();
 		//filter the results per the parameters

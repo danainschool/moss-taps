@@ -2,9 +2,9 @@ package edu.gatech.edtech;
 
 import java.util.List;
 
-public class SubmissionScript {
+public class SubmissionScripts {
 
-	public SubmissionScript(ParametersStore pStore, Canon canon,
+	public SubmissionScripts(ParametersStore pStore, Canon canon,
 			ProjectCollection current) {
 		// TODO Auto-generated constructor stub
 	}
