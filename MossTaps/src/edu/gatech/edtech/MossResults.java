@@ -7,7 +7,7 @@ public class MossResults {
 	List<String> csvRecords = new ArrayList<String>();
 	List<String> mossResults = new ArrayList<String>();
 
-	public void filter(ParametersStore pStore, Canon canon, ProjectCollection current) {
+	public void filter(ParametersStore pStore, SeriesCollection canon, SeriesCollection current) {
 		// TODO Auto-generated method stub
 		
 	}

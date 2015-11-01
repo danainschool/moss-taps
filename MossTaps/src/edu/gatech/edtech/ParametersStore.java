@@ -1,98 +1,221 @@
 package edu.gatech.edtech;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.Properties;
+import java.util.Scanner;
 
+/**
+ *  The object takes advantage of the Java Properties class to keep track of default
+ *  and user specified parameters for MossTaps
+ *  Note that the default values will be used if not explicit in the config
+ *  file, but will not be written back out to the config file.  The config file only needs to 
+ *  keep those parameters that are different from the default; The initial defaults are taken
+ *  from both the Moss perl file and David Joyner's Mossifier use case
+ *  
+ * 	help at http://docs.oracle.com/javase/tutorial/essential/environment/properties.html
+ * 	help at http://www.mkyong.com/java/java-properties-file-examples/
+ */
 public class ParametersStore {
-	// note that these structures taken from David Joyber's MOSSifier 1.1 script
-	private List<SoftwareLanguage> languages = new ArrayList<SoftwareLanguage>();
-	private String canonFolder;
-	private String currentFolder;
-	private String uploadFolder;
-	private boolean collectionNeeded = true;
-	private int linesThreshold = 100;
+	// note that these structures taken from David Joyner's MOSSifier 1.1 script
+	
+	private static final Map<String,String> initialProps;
+	static {
+		Map<String,String> tempMap = new HashMap<String,String>();
+		tempMap.put("userID","");
+		tempMap.put("baseFolder", "data"+File.separatorChar+"Base");
+		tempMap.put("currentFolder", "data"+File.separatorChar+"Current");
+		tempMap.put("originalFolder", "data"+File.separatorChar+"Original");
+		tempMap.put("uploadFolder", "data"+File.separatorChar+"Upload");
+		tempMap.put("linesCommonThreshold", "100");
+		tempMap.put("maxTilIgnore", "10");
+		tempMap.put("collectionNeeded", "true");
+		tempMap.put("java", "true");
+		tempMap.put("python", "true");
+		tempMap.put("c", "false");
+		tempMap.put("cc", "false");
+		tempMap.put("ml", "false");
+		tempMap.put("pascal", "false");
+		tempMap.put("ada", "false");
+		tempMap.put("lisp", "false");
+		tempMap.put("scheme", "false");
+		tempMap.put("haskell", "false");
+		tempMap.put("fortran", "false");
+		tempMap.put("ascii", "false");
+		tempMap.put("ascii", "false");
+		tempMap.put("vhdl", "false");
+		tempMap.put("perl", "false");
+		tempMap.put("matlab", "false");
+		tempMap.put("mips", "false");
+		tempMap.put("prolog", "false");
+		tempMap.put("spice", "false");
+		tempMap.put("vb", "false");
+		tempMap.put("csharp", "false");
+		tempMap.put("modula2", "false");
+		tempMap.put("javascript", "false");
+		tempMap.put("plsql", "false");
+		initialProps = Collections.unmodifiableMap(tempMap);
+	}
+	
+	private static final List<SoftwareLanguage> mossLanguages;
+	static {
+		List<SoftwareLanguage> tempLang = new ArrayList<SoftwareLanguage>();
+		tempLang.add(new SoftwareLanguage("Java",".java","java"));
+		tempLang.add(new SoftwareLanguage("Python",".py","python"));
+		tempLang.add(new SoftwareLanguage("C",".c","c"));
+		tempLang.add(new SoftwareLanguage("CPP",".cpp","cc"));
+		tempLang.add(new SoftwareLanguage("MatLab",".m","matlab"));
+		tempLang.add(new SoftwareLanguage("VisualBasic",".vb","vb"));
+		tempLang.add(new SoftwareLanguage("CSharp",".cs","csharp"));
+		tempLang.add(new SoftwareLanguage("JavaScript",".js","javascript"));
+		//TODO add the others
+		mossLanguages = Collections.unmodifiableList(tempLang);
+	}
+	private Properties defaultProps = new Properties();
+	private Properties applicationProps;
+	private boolean validLanguages = false;
+	private boolean validUserID = false;
+	private boolean validSettings = false;	
 
 	public ParametersStore() {
-		// TODO Auto-generated constructor stub
-	}
-	public ParametersStore(String[] args) {
-		// TODO Auto-generated constructor stub
-		// look for initialization file parameters, or use defaults
-		if(isInitFile()){
-			fetchInitValues();
+		// create and load default properties 
+		for (String key:initialProps.keySet()){
+			defaultProps.setProperty(key,initialProps.get(key));
 		}
-		// verify setup with user - include query
-		verify();
-			
-	}
-
-
-	private void verify() {
-		// TODO Auto-generated method stub
 		
-	}
-
-	private void fetchInitValues() {
-		// TODO Auto-generated method stub
+		// create application properties with default
+		applicationProps = new Properties(defaultProps);
 		
+		// now load properties from user file
+     	InputStream input = null;
+    	try {
+    		String filename = "config.txt";
+    		input = new FileInputStream(filename);
+    		applicationProps.load(input); 
+    	} catch (IOException ex) {
+    		ex.printStackTrace();
+        } finally{
+        	if(input!=null){
+        		try {
+				input.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+        	}
+        }
+    	
+    	// check userid format, languages non-empty
+    	validateSettings();
+    	
+    	// Intro to user and option for quick changes
+    	System.out.println("The current essential settings for your Moss submissions are as follows:\n"
+    			+ "Original directory (past projects/students/../files): "+applicationProps.getProperty("originalFolder")+"\n"
+    			+ "Current directory (current projects/students/../files): "+applicationProps.getProperty("currentFolder")+"\n"
+    	    	+ "Base directory (contains starter code to be ignored; may be empty: "+applicationProps.getProperty("baseFolder")+"\n"
+    	    	+ "Computer languages: "+findCurrentLanguages(applicationProps));
+    	
+    	saveIni(applicationProps);
 	}
 
-	private boolean isInitFile() {
-		// TODO Auto-generated method stub
-		return false;
+	private void validateSettings() {
+    	// get the userid if not already loaded
+    	String userID=applicationProps.getProperty("userID");
+    	validUserID = true;
+    	if (userID.isEmpty()){
+     		userID = userInput("Enter your Moss UserID: ");
+    		if (!validate(userID)){
+   				System.out.println("Must have a 9-digit userid for Moss");
+   				validUserID=false;
+     		}
+    		else {
+    	    	applicationProps.setProperty("userID", userID);
+    		}
+    	}
+    	
+    	// make sure languages non-empty
+    	String langs = findCurrentLanguages(applicationProps);
+    	if (!langs.isEmpty()) validLanguages = true;
+    	if (validLanguages && validUserID) validSettings = true;
 	}
 
-	public List<SoftwareLanguage> getLanguages() {
-		return languages;
+
+	private String findCurrentLanguages(Properties props) {
+		StringBuilder sb = new StringBuilder();
+		for (SoftwareLanguage sl:mossLanguages) {
+			if (props.getProperty(sl.getParameter()).equals("true")){
+				if (!(sb.length()==0)){
+					sb.append(",");
+				}
+				sb.append(sl.getParameter());
+			}
+		}
+		return sb.toString();
 	}
 
-	public void setLanguages(List<SoftwareLanguage> languages) {
-		this.languages = languages;
+
+	private String userInput(String userQuery) {
+		System.out.println(userQuery);
+   		Scanner scanIn = new Scanner(System.in);
+   		String answer = scanIn.nextLine();
+   		scanIn.close();
+		return answer;
 	}
 
-	public String getCanonFolder() {
-		return canonFolder;
+
+	private boolean validate(String userID) {
+		// should be an integer of length 9
+		if (userID.length()!=9) return false;
+		for (int i=0;i<userID.length();i++) {
+			if (!Character.isDigit(userID.charAt(i)))
+				return false;
+		}
+		return true;
 	}
 
-	public void setCanonFolder(String canonFolder) {
-		this.canonFolder = canonFolder;
-	}
 
-	public String getCurrentFolder() {
-		return currentFolder;
-	}
-
-	public void setCurrentFolder(String originalFolder) {
-		this.currentFolder = originalFolder;
-	}
-
-	public String getUploadFolder() {
-		return uploadFolder;
-	}
-
-	public void setUploadFolder(String uploadFolder) {
-		this.uploadFolder = uploadFolder;
-	}
-
-	public boolean isCollectionNeeded() {
-		return collectionNeeded;
-	}
-
-	public void setCollectionNeeded(boolean collectionNeeded) {
-		this.collectionNeeded = collectionNeeded;
-	}
-
-	public int getLinesThreshold() {
-		return linesThreshold;
-	}
-
-	public void setLinesThreshold(int linesThreshold) {
-		this.linesThreshold = linesThreshold;
-	}
-
-	public void loadParameters(String[] args) {
-		// TODO Auto-generated method stub
+	/**
+	 * @param props
+	 * writes out properties to the config file 
+	 * does NOT write out defaults, only changes added directly to the 
+	 * applicationProps file
+	 */
+	private void saveIni(Properties props) {
+		// save the old config file
 		
+		OutputStream output = null;
+		try {
+			output = new FileOutputStream("config.txt");
+			props.store(output, null);
+		} catch (IOException io) {
+			io.printStackTrace();
+		} finally {
+			if (output != null) {
+				try {
+					output.close();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+				
+			}
+		}
+	}
+
+	public Properties getApplicationProps() {
+		return applicationProps;
+	}
+
+
+	public boolean isValidSettings() {
+		return validSettings;
 	}
 
 }

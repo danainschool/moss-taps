@@ -6,7 +6,7 @@ import java.util.List;
 public class ProjectCollection {
 	
 	String projectDir;
-	List<SoftwareProject> studentProjects = new ArrayList<SoftwareProject>();
+	List<StudentProject> studentProjects = new ArrayList<StudentProject>();
 
 	public ProjectCollection(String folder, String uploadFolder) {
 		// TODO Auto-generated constructor stub
@@ -20,7 +20,7 @@ public class ProjectCollection {
 		
 	}
 
-	private List<SoftwareProject> crawl() {
+	private List<StudentProject> crawl() {
 		// TODO Auto-generated method stub
 		return null;
 	}
