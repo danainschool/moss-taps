@@ -65,11 +65,31 @@
     </display>  
   </class>  
   <association id="8">    
+<<<<<<< HEAD
     <end type="SOURCE" refId="3" navigable="false">      
       <attribute id="9" name="studentProjects">        
         <position height="0" width="0" x="0" y="0"/>      
       </attribute>      
       <multiplicity id="10" minimum="0" maximum="2147483647">        
+=======
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="9" name="languages">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="10" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="11">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="12" name="studentProjects">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="13" minimum="0" maximum="2147483647">        
+>>>>>>> origin/master
         <position height="0" width="0" x="0" y="0"/>      
       </multiplicity>    
     </end>    

@@ -7,6 +7,7 @@ public class MossTaps {
 
 	private static SeriesCollection canon;
 	private static SeriesCollection current;
+	private static ParametersStore pStore = new ParametersStore();
 
 	public static void main(String[] args) {
 		// test to see if parameters file exists
