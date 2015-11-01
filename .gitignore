@@ -103,6 +103,7 @@ hs_err_pid*
 # eclipse settings
 .metadata/
 .recommenders/
+.classpath
 
 # Built application files
 *.apk
