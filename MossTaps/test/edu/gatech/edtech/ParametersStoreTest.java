@@ -29,11 +29,32 @@ public class ParametersStoreTest {
 	}
 	
 	@Test
-	public void testUpdateUID() {
-		String comment = "Testing Properties update set";
-		String testValue = "260284329";
+	public void testUpdateUIDcorrect() {
+		String comment = "Testing Properties update set correctly";
+		String testValue = "123456789";
 		ps.getApplicationProps().setProperty("userID", testValue);
 		assertEquals(comment,testValue,ps.getApplicationProps().getProperty("userID", "error"));
 	}
+	
+	@Test
+	public void testUpdateUIDwrong() {
+		String comment = "Testing Properties update set incorrectly";
+		String testValue = "abcdefghi";
+		fail("Not yet implemented"); // TODO
+	}
 
+	@Test
+	public void testMissingCanonDirectory(){
+		fail("Not yet implemented"); // TODO
+	}
+
+	@Test
+	public void testMissingCurrentDirectory(){
+		fail("Not yet implemented"); // TODO
+	}
+
+	@Test
+	public void testMissingUpdateDirectory(){
+		fail("Not yet implemented"); // TODO
+	}
 }

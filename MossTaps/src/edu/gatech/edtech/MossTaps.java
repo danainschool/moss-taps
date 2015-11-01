@@ -17,17 +17,17 @@ public class MossTaps {
 			System.out.println("settings valid - ready to go!");
 		}
 		// set up the canon
-//		canon = new SeriesCollection(pStore.getCanonFolder(),pStore.getUploadFolder());		
-//		// set up the current projects
-//		current = new SeriesCollection(pStore.getCurrentFolder(),pStore.getUploadFolder());
-//		//create the moji scripts
-//		SubmissionScripts ss = new SubmissionScripts(pStore, canon, current);
-//		//submit the script and get the results urls
-//		MossResults results = ss.submit();
-//		//filter the results per the parameters
-//		results.filter(pStore,canon, current);
-//		//output the results to a CSV file
-//		results.toCSV();
+		canon = new SeriesCollection(pStore.getCanonFolder(),pStore.getUploadFolder());		
+		// set up the current projects
+		current = new SeriesCollection(pStore.getCurrentFolder(),pStore.getUploadFolder());
+		//create the moji scripts
+		SubmissionScripts ss = new SubmissionScripts(pStore, canon, current);
+		//submit the script and get the results urls
+		MossResults results = ss.submit();
+		//filter the results per the parameters
+		results.filter(pStore,canon, current);
+		//output the results to a CSV file
+		results.toCSV();
 	}
 
 }

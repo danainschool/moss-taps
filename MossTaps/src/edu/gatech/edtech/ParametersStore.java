@@ -82,6 +82,7 @@ public class ParametersStore {
 	}
 	private Properties defaultProps = new Properties();
 	private Properties applicationProps;
+	private List<SoftwareLanguage> languagesTested = new ArrayList<SoftwareLanguage>();
 	private boolean validLanguages = false;
 	private boolean validUserID = false;
 	private boolean validSettings = false;	
@@ -96,7 +97,42 @@ public class ParametersStore {
 		applicationProps = new Properties(defaultProps);
 		
 		// now load properties from user file
-     	InputStream input = null;
+     	updateProperties();
+    	
+    	// check userid format, languages non-empty
+     	loadLanguagesTested();
+    	validateSettings();
+    	
+    	// Intro to user and option for quick changes
+    	System.out.println("The current essential settings for your Moss submissions are as follows:\n"
+    			+ "Original directory (past projects/students/../files): "+applicationProps.getProperty("originalFolder")+"\n"
+    			+ "Current directory (current projects/students/../files): "+applicationProps.getProperty("currentFolder")+"\n"
+    	    	+ "Base directory (contains starter code to be ignored; may be empty: "+applicationProps.getProperty("baseFolder")+"\n"
+    	    	+ "Computer languages: "+ listLanguagesTested());
+    	
+    	saveIni(applicationProps);
+	}
+
+	private String listLanguagesTested() {
+		StringBuilder sb = new StringBuilder();
+		for (SoftwareLanguage sl:languagesTested) {
+			sb.append(sl.getLanguageName());
+			sb.append(",");
+		}
+		sb.setLength(sb.length()-1);
+		return sb.toString();
+	}
+
+	private void loadLanguagesTested() {
+		for (SoftwareLanguage sl:mossLanguages) {
+			if (applicationProps.getProperty(sl.getParameter()).equals("true")){
+				this.languagesTested.add(sl);
+			}
+		}
+	}
+
+	private void updateProperties() {
+		InputStream input = null;
     	try {
     		String filename = "config.txt";
     		input = new FileInputStream(filename);
@@ -112,18 +148,6 @@ public class ParametersStore {
 			}
         	}
         }
-    	
-    	// check userid format, languages non-empty
-    	validateSettings();
-    	
-    	// Intro to user and option for quick changes
-    	System.out.println("The current essential settings for your Moss submissions are as follows:\n"
-    			+ "Original directory (past projects/students/../files): "+applicationProps.getProperty("originalFolder")+"\n"
-    			+ "Current directory (current projects/students/../files): "+applicationProps.getProperty("currentFolder")+"\n"
-    	    	+ "Base directory (contains starter code to be ignored; may be empty: "+applicationProps.getProperty("baseFolder")+"\n"
-    	    	+ "Computer languages: "+findCurrentLanguages(applicationProps));
-    	
-    	saveIni(applicationProps);
 	}
 
 	private void validateSettings() {
@@ -140,27 +164,10 @@ public class ParametersStore {
     	    	applicationProps.setProperty("userID", userID);
     		}
     	}
-    	
     	// make sure languages non-empty
-    	String langs = findCurrentLanguages(applicationProps);
-    	if (!langs.isEmpty()) validLanguages = true;
+    	if (!languagesTested.isEmpty()) validLanguages = true;
     	if (validLanguages && validUserID) validSettings = true;
 	}
-
-
-	private String findCurrentLanguages(Properties props) {
-		StringBuilder sb = new StringBuilder();
-		for (SoftwareLanguage sl:mossLanguages) {
-			if (props.getProperty(sl.getParameter()).equals("true")){
-				if (!(sb.length()==0)){
-					sb.append(",");
-				}
-				sb.append(sl.getParameter());
-			}
-		}
-		return sb.toString();
-	}
-
 
 	private String userInput(String userQuery) {
 		System.out.println(userQuery);
