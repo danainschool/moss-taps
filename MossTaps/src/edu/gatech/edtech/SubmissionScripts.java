@@ -16,8 +16,13 @@ public class SubmissionScripts {
 		this.canon = canon;
 		this.current = current;
 		
-		// for each
 		
+		
+		// for each
+//		for (SoftwareLanguage lang:pStore.getLanguagesTested()){
+//			for (St)
+//			submissions.add(new Submission());
+//		}
 		
 		// TODO Auto-generated constructor stub
 	}

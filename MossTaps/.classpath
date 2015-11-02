@@ -10,5 +10,6 @@
 			<attribute name="javadoc_location" value="file:/C:/Program%20Files/Java/commons-io-2.4/docs/"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="/Zip4jExamples/lib/zip4j_1.3.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

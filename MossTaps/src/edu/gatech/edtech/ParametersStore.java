@@ -69,14 +69,14 @@ public class ParametersStore {
 	private static final List<SoftwareLanguage> mossLanguages;
 	static {
 		List<SoftwareLanguage> tempLang = new ArrayList<SoftwareLanguage>();
-		tempLang.add(new SoftwareLanguage("Java",".java","java"));
-		tempLang.add(new SoftwareLanguage("Python",".py","python"));
-		tempLang.add(new SoftwareLanguage("C",".c","c"));
-		tempLang.add(new SoftwareLanguage("CPP",".cpp","cc"));
-		tempLang.add(new SoftwareLanguage("MatLab",".m","matlab"));
-		tempLang.add(new SoftwareLanguage("VisualBasic",".vb","vb"));
-		tempLang.add(new SoftwareLanguage("CSharp",".cs","csharp"));
-		tempLang.add(new SoftwareLanguage("JavaScript",".js","javascript"));
+		tempLang.add(new SoftwareLanguage("Java","java","java"));
+		tempLang.add(new SoftwareLanguage("Python","py","python"));
+		tempLang.add(new SoftwareLanguage("C","c","c"));
+		tempLang.add(new SoftwareLanguage("CPP","cpp","cc"));
+		tempLang.add(new SoftwareLanguage("MatLab","m","matlab"));
+		tempLang.add(new SoftwareLanguage("VisualBasic","vb","vb"));
+		tempLang.add(new SoftwareLanguage("CSharp","cs","csharp"));
+		tempLang.add(new SoftwareLanguage("JavaScript","js","javascript"));
 		//TODO add the others
 		mossLanguages = Collections.unmodifiableList(tempLang);
 	}
