@@ -5,21 +5,29 @@ import java.util.List;
 
 public class MossTaps {
 
+	private static final String ORIGINAL_PREFIX = "O_";
+	private static final String CURRENT_PREFIX = "C_";
 	private static SeriesCollection canon;
 	private static SeriesCollection current;
-	private static ParametersStore pStore = new ParametersStore();
+	private static ParametersStore pStore;
 
 	public static void main(String[] args) {
 		// test to see if parameters file exists
 		// update with args
-		ParametersStore pStore = new ParametersStore();
+		pStore = new ParametersStore();
 		if (pStore.isValidSettings()) {
 			System.out.println("settings valid - ready to go!");
 		}
-		// set up the canon
-		canon = new SeriesCollection(pStore.getCanonFolder(),pStore.getUploadFolder());		
-		// set up the current projects
-		current = new SeriesCollection(pStore.getCurrentFolder(),pStore.getUploadFolder());
+		
+		// set up the originals and current directories for submission
+		canon = new SeriesCollection(pStore.getLanguagesTested(),ORIGINAL_PREFIX, pStore.getOriginalFolder(),pStore.getUploadFolder());		
+		if (pStore.isCollectionNeeded()){
+			canon.collect();
+		}
+		current = new SeriesCollection(pStore.getLanguagesTested(),CURRENT_PREFIX,pStore.getCurrentFolder(),pStore.getUploadFolder());
+		current.collect();
+		current.consolidateStudents();
+		
 		//create the moji scripts
 		SubmissionScripts ss = new SubmissionScripts(pStore, canon, current);
 		//submit the script and get the results urls

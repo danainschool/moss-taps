@@ -102,15 +102,16 @@ public class ParametersStore {
     	// check userid format, languages non-empty
      	loadLanguagesTested();
     	validateSettings();
-    	
-    	// Intro to user and option for quick changes
-    	System.out.println("The current essential settings for your Moss submissions are as follows:\n"
-    			+ "Original directory (past projects/students/../files): "+applicationProps.getProperty("originalFolder")+"\n"
-    			+ "Current directory (current projects/students/../files): "+applicationProps.getProperty("currentFolder")+"\n"
-    	    	+ "Base directory (contains starter code to be ignored; may be empty: "+applicationProps.getProperty("baseFolder")+"\n"
-    	    	+ "Computer languages: "+ listLanguagesTested());
-    	
+    	showIntro();
     	saveIni(applicationProps);
+	}
+
+	private void showIntro() {
+		System.out.println("The current essential settings for your Moss submissions are as follows:\n"
+    			+ "Original directory (past projects/students/../files):\n   "+applicationProps.getProperty("originalFolder")+"\n"
+    			+ "Current directory (current projects/students/../files):\n   "+applicationProps.getProperty("currentFolder")+"\n"
+    	    	+ "Base directory (contains starter code to be ignored; may be empty:\n   "+applicationProps.getProperty("baseFolder")+"\n"
+    	    	+ "Computer languages:\n   "+ listLanguagesTested());
 	}
 
 	private String listLanguagesTested() {
@@ -152,6 +153,7 @@ public class ParametersStore {
 
 	private void validateSettings() {
     	// get the userid if not already loaded
+		//TODO check on directories
     	String userID=applicationProps.getProperty("userID");
     	validUserID = true;
     	if (userID.isEmpty()){
@@ -220,9 +222,37 @@ public class ParametersStore {
 		return applicationProps;
 	}
 
-
 	public boolean isValidSettings() {
 		return validSettings;
 	}
+	
+	public List<SoftwareLanguage> getLanguagesTested() {
+		return languagesTested;
+	}
+	
+	public String getUserID() {
+		return applicationProps.getProperty("userID");
+	}
 
+	public String getCurrentFolder() {
+		return applicationProps.getProperty("currentFolder");
+	}
+
+	public String getOriginalFolder() {
+		return applicationProps.getProperty("originalFolder");
+	}
+	
+	public String getBaseFolder() {
+		return applicationProps.getProperty("baseFolder");		
+	}
+
+	public String getUploadFolder() {
+		return applicationProps.getProperty("uploadFolder");		
+	}
+	
+	public boolean isCollectionNeeded() {
+		if (applicationProps.getProperty("collectionNeeded").equalsIgnoreCase("false"))
+			return false;
+		else return true;
+	}
 }

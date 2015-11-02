@@ -10,7 +10,7 @@ public class QuickStart {
         // directory.
         Collection<File> files = FileUtils.listFiles(new File(
 //            "C:/Users/Dana/Documents/GitHub/MOSS-TAPS/MossTaps/data"), new String[] { "java" }, true);
-        	"C:/Users/Dana/Documents/GitHub/MOSS-TAPS/MossTaps/data"), new String[] { "java" }, true);
+        	"C:/Users/Dana/Documents/GitHub/MOSS-TAPS/MossTaps/data/Java_Students"), new String[] { "java" }, true);
         showFiles(files);
 
         // a list of base files that was given to the students for this
