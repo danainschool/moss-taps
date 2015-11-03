@@ -2,6 +2,7 @@ package edu.gatech.edtech;
 
 import java.io.File;
 import java.io.FilenameFilter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
@@ -14,7 +15,6 @@ import org.apache.commons.io.filefilter.DirectoryFileFilter;
 import org.apache.commons.io.filefilter.FalseFileFilter;
 
 public class SeriesCollection {
-	ArrayList<ProjectCollection> groupOfProjects = new ArrayList<ProjectCollection>();
 	String seriesFolder;
 	String uploadFolder;
 	List<SoftwareLanguage> languages;
@@ -30,34 +30,38 @@ public class SeriesCollection {
 		showFiles(projectFolders);
 	}
 
-//	// removes files in upload folder
-//	public void collect() {
-//		// TODO implement
-//		// for each language,
-//		//     if no language directory in upload, create one
-//		//     for each project in seriesFolder,
-//		//         for each student in project folder
-//		//             crawl recursively thru entire contents
-//		//             for each file where the extension matches this language,
-//		//                  if no prefix-project-student folder, create one
-//		//                  copy file to prefix-project-student folder
-//	}
-//
-//	public void consolidateStudents() {
-//		// TODO implement
-//		// for each language folder
-//		//     for each prefix-project-student folder in upload
-//		//         for each file in prefix-project-student folder
-//		//              if no prefix-student file, create one
-//		//              append file to folder 
-//		//         remove prefix-project-student folder
-//	}
+	public int moveToUpload() throws IOException {
+		// put language extensions into array
+		String[] extensions = new String[languages.size()];
+		for (int i = 0; i<languages.size(); i++) {
+			extensions[i] = languages.get(i).getExtension();
+		}
+		// for each project, and for each student, collect all the files with extensions in all subdirectories
+		for (File project : projectFolders) {
+			File[] studentFolders = new File(project.getPath()).listFiles((FilenameFilter) DirectoryFileFilter.DIRECTORY);
+			for (File student : studentFolders) {
+				// make a directory in the Upload folder
+				String copyDirectory = uploadFolder + File.separator + clean(project.getName()) + File.separator + clean(student.getName());
+				File studentDirUpload = new File(copyDirectory);
+				// find all the files to copy there and copy them
+				Collection<File> files = FileUtils.listFiles(student, extensions, true);
+				for (File file:files){
+					FileUtils.copyFileToDirectory(file,studentDirUpload);
+				}
+			}
+		}
+		return 1;
+	}
 
+	private String clean(String name) {
+		name = name.replaceAll("\\s","_");
+		return name;
+	}
 
 	public void inflateZips() {
 		Collection<File> files = FileUtils.listFiles(
 				new File(seriesFolder),	new String[] { "zip" }, true);
-		showFiles(files);
+//		showFiles(files);
 		for (File file : files) {
 			unzip(file.getPath(),file.getParent());
 		}
@@ -73,7 +77,7 @@ public class SeriesCollection {
 		
 	}
 	private void showFiles(File[] folders) {
-		System.out.println("Showing Files");
+		System.out.println("Showing projects");
 		for (File folder : folders) {
 			System.out.println(folder.getAbsolutePath());
 		}
@@ -85,14 +89,6 @@ public class SeriesCollection {
 			System.out.println(file.getAbsolutePath());
 		}
 		
-	}
-	public void cleanFileNames() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	public ArrayList<ProjectCollection> getGroupOfProjects() {
-		return groupOfProjects;
 	}
 
 	public String getSeriesFolder() {

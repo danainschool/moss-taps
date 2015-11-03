@@ -30,7 +30,7 @@ public class SubmissionTest {
 		mossProps.setProperty("port","7690");
 		mossProps.setProperty("language",lang.getParameter());
 		base = "data"+File.separatorChar+"Base";
-		parent = "data"+File.separatorChar+"Java_Students";
+		parent = "data"+File.separatorChar+"submit-test";
 	}
 
 	@After
@@ -52,11 +52,11 @@ public class SubmissionTest {
 		String testValue = "250";
 		assertEquals(comment,testValue,mossProps.getProperty("optN"));
 	}
-	@Test
-	public void test2() throws Exception {
-		String comment = "Testing ...";
-		Submission s = new Submission(parent,base,lang,mossProps);
-		fail("Not yet implemented"); // TODO TEST
-	}
-
+//	@Test
+//	public void test2() throws Exception {
+//		String comment = "Testing ...";
+//		Submission s = new Submission(parent,base,lang,mossProps);
+//		fail("Not yet implemented"); // TODO TEST
+//	}
+//
 }

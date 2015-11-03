@@ -26,7 +26,7 @@ public class Submission {
 		this.parentFolder = parentFolder;
 		this.baseFolder = baseFolder;
 		this.mossProps.setProperty("language", language.getParameter());
-		this.mossProps.setProperty("optC", language.getLanguageName()+"_"+parentFolder);
+		this.mossProps.setProperty("optC", language.getLanguageName()+" : "+parentFolder);
 		this.validInfo = testInfoValid();
 	}
 	
@@ -34,13 +34,14 @@ public class Submission {
 		// collect listing of files by extension recursively
 		Collection<File> files = FileUtils.listFiles(new File(parentFolder),
 				new String[] {language.getExtension()}, true);
+		showFiles(files);
 		Collection<File> baseFiles = FileUtils.listFiles(new File(baseFolder),
 				new String[] {language.getExtension()}, true);
 		
 		// set up and start moji socket client for Moss
 		SocketClient socketClient = new SocketClient(
 				mossProps.getProperty("server"),
-				Integer.valueOf(mossProps.getProperty(mossProps.getProperty("port"))),
+				Integer.valueOf(mossProps.getProperty("port")),
 				mossProps.getProperty("language"));
 		socketClient.setUserID(mossProps.getProperty("userID"));
 		socketClient.setOptC(mossProps.getProperty("optC"));
@@ -97,6 +98,7 @@ public class Submission {
 
         //get URL with Moss results and do something with it
         results = socketClient.getResultURL();
+        socketClient.close();
         System.out.println("Results available at " + results.toString());
 		return true;
 	}
@@ -128,5 +130,10 @@ public class Submission {
 	public URL getResults() {
 		return results;
 	}
+	private static void showFiles(Collection<File> files) {
+		for (File file : files) {
+			System.out.println(file.getAbsolutePath());
+		}
+	}	
 
 }

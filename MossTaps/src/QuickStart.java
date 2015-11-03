@@ -54,6 +54,8 @@ public class QuickStart {
         //get URL with Moss results and do something with it
         URL results = socketClient.getResultURL();
         System.out.println("Results available at " + results.toString());
+        
+        socketClient.close();
     }
 
 	private static void showFiles(Collection<File> files) {
