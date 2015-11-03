@@ -126,3 +126,4 @@ proguard/
 *.log
 
 #MOSS-TAPS changeable data
+data/
