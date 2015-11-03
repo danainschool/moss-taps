@@ -18,8 +18,8 @@ public class MossTaps {
 		
 		// set up the originals and current directories for submission
 		canon = new SeriesCollection(pStore.getLanguagesTested(),ORIGINAL_PREFIX, pStore.getOriginalFolder(),pStore.getUploadFolder());
-//		canon.inflateZips();
-//		canon.cleanFileNames();
+		canon.inflateZips();
+		canon.cleanFileNames();
 		
 		current = new SeriesCollection(pStore.getLanguagesTested(),CURRENT_PREFIX,pStore.getCurrentFolder(),pStore.getUploadFolder());
 //		current.inflateZips();

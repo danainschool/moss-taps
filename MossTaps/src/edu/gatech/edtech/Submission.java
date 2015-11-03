@@ -8,28 +8,25 @@ import java.io.IOException;
 import java.net.URL;
 import java.net.UnknownHostException;
 import java.util.Collection;
+import java.util.Properties;
 
 import org.apache.commons.io.FileUtils;
 
 public class Submission {
-	SoftwareLanguage language;
-	String server = "moss.stanford.edu";
-	String port = "7690";
-	String userID;
-	String parentFolder;
-	String baseFolder;
-	String comment = "";
-	boolean validInfo = false;
-	URL results = null;
-	
+	private Properties mossProps;
+	private SoftwareLanguage language;
+	private boolean validInfo = false;
+	private URL results = null;
+	private String parentFolder;
+	private String baseFolder;
 
-	public Submission(String parentFolder, String baseFolder, SoftwareLanguage language, 
-			String userID) throws Exception {
+	public Submission(String parentFolder, String baseFolder, SoftwareLanguage language, Properties mossProps) throws Exception {
+		this.mossProps = mossProps;
 		this.language = language;
-		this.userID = userID;
 		this.parentFolder = parentFolder;
 		this.baseFolder = baseFolder;
-		this.comment = language.getLanguageName() + "_" + parentFolder;
+		this.mossProps.setProperty("language", language.getParameter());
+		this.mossProps.setProperty("optC", language.getLanguageName()+"_"+parentFolder);
 		this.validInfo = testInfoValid();
 	}
 	
@@ -41,15 +38,16 @@ public class Submission {
 				new String[] {language.getExtension()}, true);
 		
 		// set up and start moji socket client for Moss
-		SocketClient socketClient = new SocketClient();
-		socketClient.setUserID(userID);
-		try {
-			socketClient.setLanguage(language.getParameter());
-		} catch (MossException e) {
-			e.printStackTrace();
-			return false;
-		}		
-		System.out.println("starting SocketClient "+comment);
+		SocketClient socketClient = new SocketClient(
+				mossProps.getProperty("server"),
+				Integer.valueOf(mossProps.getProperty(mossProps.getProperty("port"))),
+				mossProps.getProperty("language"));
+		socketClient.setUserID(mossProps.getProperty("userID"));
+		socketClient.setOptC(mossProps.getProperty("optC"));
+		socketClient.setOptM(Long.valueOf(mossProps.getProperty("optM")));
+		socketClient.setOptN(Long.valueOf(mossProps.getProperty("optN")));
+		socketClient.setOptX(Integer.valueOf(mossProps.getProperty("optX")));		
+		System.out.println("starting SocketClient "+mossProps.getProperty("optC"));
 		try {
 			socketClient.run();
 		} catch (UnknownHostException e) {
@@ -119,7 +117,7 @@ public class Submission {
 	}
 
 	public String getComment() {
-		return comment;
+		return mossProps.getProperty("optC");
 	}
 
 	public boolean isValidInfo() {

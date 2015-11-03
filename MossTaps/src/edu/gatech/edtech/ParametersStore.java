@@ -24,21 +24,33 @@ import java.util.Scanner;
  *  
  * 	help at http://docs.oracle.com/javase/tutorial/essential/environment/properties.html
  * 	help at http://www.mkyong.com/java/java-properties-file-examples/
+ *
+ * @author Dana Sheahen
+ *
  */
 public class ParametersStore {
 	// note that these structures taken from David Joyner's MOSSifier 1.1 script
-	
+	private static final String CONFIG_FILENAME = "mtconfig.txt";
 	private static final Map<String,String> initialProps;
 	static {
 		Map<String,String> tempMap = new HashMap<String,String>();
-		tempMap.put("userID","");
+		// MossTaps parameters
 		tempMap.put("baseFolder", "data"+File.separatorChar+"Base");
 		tempMap.put("currentFolder", "data"+File.separatorChar+"Current");
 		tempMap.put("originalFolder", "data"+File.separatorChar+"Original");
 		tempMap.put("uploadFolder", "data"+File.separatorChar+"Upload");
-		tempMap.put("linesCommonThreshold", "100");
-		tempMap.put("maxTilIgnore", "10");
-		tempMap.put("collectionNeeded", "true");
+		tempMap.put("linesCommonThreshold", "100"); // for filtered csv
+		tempMap.put("inflationNeeded", "true"); // unzips all zips
+		// Moss parameters
+		tempMap.put("userID","");
+		tempMap.put("optM", "10"); //max until ignored by Moss
+		tempMap.put("optD", "1"); //submission by directories
+		tempMap.put("optX","0"); //do not use experimental Moss
+		tempMap.put("optN", "250"); //return top 250
+		tempMap.put("optC", ""); //comment
+		tempMap.put("server", "moss.stanford.edu"); 
+		tempMap.put("port", "7690");
+		// Moss languages supported
 		tempMap.put("java", "true");
 		tempMap.put("python", "true");
 		tempMap.put("c", "false");
@@ -77,7 +89,7 @@ public class ParametersStore {
 		tempLang.add(new SoftwareLanguage("VisualBasic","vb","vb"));
 		tempLang.add(new SoftwareLanguage("CSharp","cs","csharp"));
 		tempLang.add(new SoftwareLanguage("JavaScript","js","javascript"));
-		//TODO add the others
+		//TODO LOW add the others
 		mossLanguages = Collections.unmodifiableList(tempLang);
 	}
 	private Properties defaultProps = new Properties();
@@ -103,7 +115,14 @@ public class ParametersStore {
      	loadLanguagesTested();
     	validateSettings();
     	showIntro();
-    	saveIni(applicationProps);
+    	userInterface();
+    	saveConfig();
+	}
+
+	private void userInterface() {
+		// TODO ENHANCEMENT user editor
+		// add ability to change some basic parameters within app
+	    // default way is to edit config.txt directly per user manual
 	}
 
 	private void showIntro() {
@@ -135,7 +154,7 @@ public class ParametersStore {
 	private void updateProperties() {
 		InputStream input = null;
     	try {
-    		String filename = "config.txt";
+    		String filename = CONFIG_FILENAME;
     		input = new FileInputStream(filename);
     		applicationProps.load(input); 
     	} catch (IOException ex) {
@@ -153,7 +172,7 @@ public class ParametersStore {
 
 	private void validateSettings() {
     	// get the userid if not already loaded
-		//TODO check on directories
+		//TODO ERRORCHECKS check on directories
     	String userID=applicationProps.getProperty("userID");
     	validUserID = true;
     	if (userID.isEmpty()){
@@ -192,18 +211,16 @@ public class ParametersStore {
 
 
 	/**
-	 * @param props
-	 * writes out properties to the config file 
+	 * writes out properties to the mtconfig.txt file 
 	 * does NOT write out defaults, only changes added directly to the 
 	 * applicationProps file
 	 */
-	private void saveIni(Properties props) {
-		// save the old config file
-		
+	public void saveConfig() {
+		// TODO ENHANCEMENT backup old config file
 		OutputStream output = null;
 		try {
-			output = new FileOutputStream("config.txt");
-			props.store(output, null);
+			output = new FileOutputStream(CONFIG_FILENAME);
+			applicationProps.store(output, null);
 		} catch (IOException io) {
 			io.printStackTrace();
 		} finally {
@@ -218,6 +235,11 @@ public class ParametersStore {
 		}
 	}
 
+	/**
+	 * @return Properties applicationProps
+	 * to make changes to properties part of the future config,
+	 * follow modifications with saveConfig method
+	 */
 	public Properties getApplicationProps() {
 		return applicationProps;
 	}
@@ -247,8 +269,24 @@ public class ParametersStore {
 	}
 
 	public String getUploadFolder() {
-		return applicationProps.getProperty("uploadFolder");		
+		return applicationProps.getProperty("uploadFolder");
+		//TODO remove?
 	}
+	
+	public Properties getMossProperties(SoftwareLanguage language){
+		Properties mossProps = new Properties();
+		mossProps.setProperty("userID",applicationProps.getProperty("userID"));
+		mossProps.setProperty("optM",applicationProps.getProperty("optM"));
+		mossProps.setProperty("optD",applicationProps.getProperty("optD"));
+		mossProps.setProperty("optX",applicationProps.getProperty("optX"));
+		mossProps.setProperty("optN",applicationProps.getProperty("optN"));
+		mossProps.setProperty("optC",applicationProps.getProperty("optC"));
+		mossProps.setProperty("server",applicationProps.getProperty("server"));
+		mossProps.setProperty("port",applicationProps.getProperty("port"));
+		mossProps.setProperty("language",language.getParameter());
+		return mossProps;
+	}
+		
 	
 	public boolean isCollectionNeeded() {
 		if (applicationProps.getProperty("collectionNeeded").equalsIgnoreCase("false"))

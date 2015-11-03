@@ -40,21 +40,21 @@ public class ParametersStoreTest {
 	public void testUpdateUIDwrong() {
 		String comment = "Testing Properties update set incorrectly";
 		String testValue = "abcdefghi";
-		fail("Not yet implemented"); // TODO
+		fail("Not yet implemented"); // TODO TEST
 	}
 
 	@Test
 	public void testMissingCanonDirectory(){
-		fail("Not yet implemented"); // TODO
+		fail("Not yet implemented"); // TODO TEST
 	}
 
 	@Test
 	public void testMissingCurrentDirectory(){
-		fail("Not yet implemented"); // TODO
+		fail("Not yet implemented"); // TODO TEST
 	}
 
 	@Test
 	public void testMissingUpdateDirectory(){
-		fail("Not yet implemented"); // TODO
+		fail("Not yet implemented"); // TODO TEST
 	}
 }
