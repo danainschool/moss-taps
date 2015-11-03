@@ -101,10 +101,11 @@ public class Submission {
 		return true;
 	}
 	
-	private boolean testInfoValid() {
-		// TODO Auto-generated method stub
-		// if parentFolder exists
-		// if baseFolder exists
+	public boolean testInfoValid() {
+		File f = new File(parentFolder);
+		if (!f.exists()) return false;
+		f = new File(baseFolder);
+		if (!f.exists()) return false;
 		return true;
 	}
 
