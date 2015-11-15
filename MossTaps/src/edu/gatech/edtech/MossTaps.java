@@ -22,17 +22,17 @@ public class MossTaps {
 		canon.cleanFileNames();
 		
 		current = new SeriesCollection(pStore.getLanguagesTested(),CURRENT_PREFIX,pStore.getCurrentFolder(),pStore.getUploadFolder());
-//		current.inflateZips();
-//		current.cleanFileNames();
+		current.inflateZips();
+		current.cleanFileNames();
 //		current.consolidateStudents();
 		
 		//create the moji scripts
-//		SubmissionScripts ss = new SubmissionScripts(pStore, canon, current);
-//		//submit the script and get the results urls
-//		MossResults results = ss.submit();
-//		//filter the results per the parameters
+		SubmissionScripts ss = new SubmissionScripts(pStore, canon, current);
+		//submit the script and get the results urls
+		MossResults results = ss.submit();
+		//filter the results per the parameters
 //		results.filter(pStore,canon, current);
-//		//output the results to a CSV file
+		//output the results to a CSV file
 //		results.toCSV();
 	}
 
