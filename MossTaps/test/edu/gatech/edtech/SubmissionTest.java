@@ -30,7 +30,7 @@ public class SubmissionTest {
 		mossProps.setProperty("port","7690");
 		mossProps.setProperty("language",lang.getParameter());
 		base = "data"+File.separatorChar+"Base";
-		parent = "data"+File.separatorChar+"submit-test";
+		parent = "data"+File.separatorChar+"UploadTest";
 	}
 
 	@After
@@ -41,9 +41,8 @@ public class SubmissionTest {
 	public void testSubmitSuccess() throws Exception {
 		String comment = "Testing submit success";
 		Submission s = new Submission(parent,base,lang,mossProps);
-		s.submit();
-		s.getResults();
-		assertFalse(comment,s.getResults().toString().isEmpty());
+		boolean result = s.submit();
+		assertTrue(comment,result);
 	}
 	@Test
 	public void testPropsSet() throws Exception {

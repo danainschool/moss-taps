@@ -7,7 +7,9 @@ import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 import java.net.UnknownHostException;
+import java.util.ArrayList;
 import java.util.Collection;
+import java.util.List;
 import java.util.Properties;
 
 import org.apache.commons.io.FileUtils;
@@ -16,7 +18,8 @@ public class Submission {
 	private Properties mossProps;
 	private SoftwareLanguage language;
 	private boolean validInfo = false;
-	private URL results = null;
+	private boolean successful = false;
+	private List<MossReply> replies = new ArrayList<MossReply>();
 	private String parentFolder;
 	private String baseFolder;
 
@@ -38,6 +41,13 @@ public class Submission {
 		Collection<File> baseFiles = FileUtils.listFiles(new File(baseFolder),
 				new String[] {language.getExtension()}, true);
 		
+		//TODO FUTURE: split non-current directories if too large into multiple
+		// submission groups and put submission into loop
+		
+		return successful = singleSubmit(files, baseFiles);
+	}
+
+	private boolean singleSubmit(Collection<File> files, Collection<File> baseFiles) {
 		// set up and start moji socket client for Moss
 		SocketClient socketClient = new SocketClient(
 				mossProps.getProperty("server"),
@@ -97,9 +107,10 @@ public class Submission {
 		}
 
         //get URL with Moss results and do something with it
-        results = socketClient.getResultURL();
+        URL results = socketClient.getResultURL();
         socketClient.close();
         System.out.println("Results available at " + results.toString());
+        replies.add(new MossReply(results,this.language));
 		return true;
 	}
 	
@@ -127,13 +138,22 @@ public class Submission {
 		return validInfo;
 	}
 
-	public URL getResults() {
-		return results;
-	}
 	private static void showFiles(Collection<File> files) {
 		for (File file : files) {
 			System.out.println(file.getAbsolutePath());
 		}
+	}
+
+	public boolean isSuccessful() {
+		return successful;
+	}
+
+	public void setSuccessful(boolean successful) {
+		this.successful = successful;
+	}
+
+	public List<MossReply> getReplies() {
+		return replies;
 	}	
 
 }

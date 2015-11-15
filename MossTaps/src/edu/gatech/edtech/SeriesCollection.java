@@ -41,7 +41,7 @@ public class SeriesCollection {
 			File[] studentFolders = new File(project.getPath()).listFiles((FilenameFilter) DirectoryFileFilter.DIRECTORY);
 			for (File student : studentFolders) {
 				// make a directory in the Upload folder
-				String copyDirectory = uploadFolder + File.separator + clean(project.getName()) + File.separator + clean(student.getName());
+				String copyDirectory = uploadFolder + File.separator + prependClean(project.getName()) + File.separator + clean(student.getName());
 				File studentDirUpload = new File(copyDirectory);
 				// find all the files to copy there and copy them
 				Collection<File> files = FileUtils.listFiles(student, extensions, true);
@@ -53,11 +53,16 @@ public class SeriesCollection {
 		return 1;
 	}
 
-	private String clean(String name) {
+	public String clean(String name) {
+		// replace the white space with underscore and prepend with prefix
 		name = name.replaceAll("\\s","_");
 		return name;
 	}
 
+	public String prependClean(String name) {
+		// replace the white space with underscore and prepend with prefix
+		return this.prefix + clean(name);
+	}
 	public void inflateZips() {
 		Collection<File> files = FileUtils.listFiles(
 				new File(seriesFolder),	new String[] { "zip" }, true);

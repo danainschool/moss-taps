@@ -1,6 +1,5 @@
-<<<<<<< HEAD
-#Sat Nov 14 22:31:36 CST 2015
-=======
-#Tue Nov 03 15:46:01 CST 2015
->>>>>>> branch 'master' of https://github.gatech.edu/dsheahen3/MOSS-TAPS.git
+#Sun Nov 15 08:43:37 CST 2015
 userID=260284329
+>>>>>>>=branch 'master' of https\://github.gatech.edu/dsheahen3/MOSS-TAPS.git
+=\=\=\=\=\=\=
+<<<<<<<=HEAD

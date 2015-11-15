@@ -1,6 +1,7 @@
 package edu.gatech.edtech;
 
-import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class MossTaps {
 
@@ -26,13 +27,19 @@ public class MossTaps {
 		current = new SeriesCollection(pStore.getLanguagesTested(),CURRENT_PREFIX,pStore.getCurrentFolder(),pStore.getUploadFolder());
 		current.inflateZips();
 		current.moveToUpload();
-//		current.consolidateStudents();
-
+		
+		// submit the queries for each language and collect the URLs from Moss
 		for (SoftwareLanguage language:pStore.getLanguagesTested()){
+			List<MossReply> mossResults = new ArrayList<MossReply>();
 			Submission mossSub = new Submission(pStore.getUploadFolder(),pStore.getBaseFolder(),
 					language,pStore.getMossProperties(language));
 			mossSub.submit();
+			if(mossSub.isSuccessful()){
+				// success
+				mossResults.addAll(mossSub.getReplies());
+			}
+			// convert the results to csv file form MT2015_1115_Python.csv
+			ResultsFilter.toCSV(mossResults,language);		
 		}
 	}
-
 }

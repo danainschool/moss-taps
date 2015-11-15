@@ -34,7 +34,8 @@ public class SeriesCollectionTest {
 		sList.add(new SoftwareLanguage("Python", "py", "python"));
 		uploadFolderName = testFolderName + File.separator + "Upload";
 		originalFolderName = testFolderName + File.separator + "Current";
-		currentFolderName = testFolderName + File.separator + "Original";		
+		currentFolderName = testFolderName + File.separator + "Original";
+		prefix = "C_";
 	}
 
 	@After
@@ -42,12 +43,21 @@ public class SeriesCollectionTest {
 	}
 
 	@Test
-	public void test1() throws IOException {
+	public void testMoveFilesToUpload() throws IOException {
 		String comment = "test moveToUpload";
 		int testValue = 1;
 		SeriesCollection sc = new SeriesCollection(sList,prefix,currentFolderName,uploadFolderName);
 		sc.inflateZips();
 		int testResult = sc.moveToUpload();
+		assertEquals(comment,testValue,testResult);
+	}
+	
+	@Test
+	public void testPrependCleanName() throws IOException {
+		String comment = "test replace white space and prepend";
+		String testValue = "C_squashed_name";
+		SeriesCollection sc = new SeriesCollection(sList,prefix,currentFolderName,uploadFolderName);
+		String testResult = sc.prependClean("squashed name");
 		assertEquals(comment,testValue,testResult);
 	}
 
