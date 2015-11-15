@@ -1,5 +1,7 @@
 package edu.gatech.edtech;
 
+import java.io.IOException;
+
 public class MossTaps {
 
 	private static final String ORIGINAL_PREFIX = "O_";
@@ -8,7 +10,7 @@ public class MossTaps {
 	private static SeriesCollection current;
 	private static ParametersStore pStore;
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		// test to see if parameters file exists
 		// update with args
 		pStore = new ParametersStore();
@@ -19,21 +21,18 @@ public class MossTaps {
 		// set up the originals and current directories for submission
 		canon = new SeriesCollection(pStore.getLanguagesTested(),ORIGINAL_PREFIX, pStore.getOriginalFolder(),pStore.getUploadFolder());
 		canon.inflateZips();
-		canon.cleanFileNames();
+		canon.moveToUpload();
 		
 		current = new SeriesCollection(pStore.getLanguagesTested(),CURRENT_PREFIX,pStore.getCurrentFolder(),pStore.getUploadFolder());
 		current.inflateZips();
-		current.cleanFileNames();
+		current.moveToUpload();
 //		current.consolidateStudents();
-		
-		//create the moji scripts
-		SubmissionScripts ss = new SubmissionScripts(pStore, canon, current);
-		//submit the script and get the results urls
-		MossResults results = ss.submit();
-		//filter the results per the parameters
-//		results.filter(pStore,canon, current);
-		//output the results to a CSV file
-//		results.toCSV();
+
+		for (SoftwareLanguage language:pStore.getLanguagesTested()){
+			Submission mossSub = new Submission(pStore.getUploadFolder(),pStore.getBaseFolder(),
+					language,pStore.getMossProperties(language));
+			mossSub.submit();
+		}
 	}
 
 }

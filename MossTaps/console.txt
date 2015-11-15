@@ -1,0 +1,465 @@
+The current essential settings for your Moss submissions are as follows:
+Original directory (past projects/students/../files):
+   data\Original
+Current directory (current projects/students/../files):
+   data\Current
+Base directory (contains starter code to be ignored; may be empty:
+   data\Base
+Computer languages:
+   Java,Python
+settings valid - ready to go!
+Showing Files
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Original\P1-2014
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Original\P2-2014
+Showing Files
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Original\P1-2014\Abramson, Christopher(11a3b6f00f76a75d9d650d008e4a510e)\Submission attachment(s)\Project1-cabramson3-Python.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Original\P1-2014\Absher, Ian(90bc16fae739004d71361ad6585f3907)\Submission attachment(s)\Project1-iabsher3-Python2.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Original\P1-2014\Alagar Raj, Kannan(41e869b8be1ff2f45a0f7679f0612c02)\Submission attachment(s)\Project1-kar3-java.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Original\P1-2014\Alexandrov, Vitali(c87f16d0e9cda269a5c19e68612109b1)\Submission attachment(s)\Project1-valexandrov3-Java.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Original\P1-2014\Alexiev, Valeri(fdff9c54a88cb0c4288d5d2618f64fd8)\Submission attachment(s)\Project1-valexiev3-Java.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Original\P1-2014\Altmansberger, Timothy(b72a6ef515dfe775b81c412263fcc24d)\Submission attachment(s)\Project1-tca3-java.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Original\P1-2014\Alwarappan, Ganapathi(21f2212719b3c956cfeec91a639a019f)\Submission attachment(s)\Project1-galwarappan3-Java.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Original\P1-2014\Argain, Frank(6555850a55640f87137d0f2cfe2d9553)\Submission attachment(s)\Project1-fargain3-Python2.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Original\P1-2014\Argroves, Nathan(e4eccfa8a9dceb2e2902c8b052ce85b4)\Submission attachment(s)\Project1-nargroves3-Java.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Original\P1-2014\Aslam, Hassaan(5041308ef3585f4cd6051da1dccd4331)\Submission attachment(s)\Project1-haslam7-java.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Original\P2-2014\Abramson, Christopher(11a3b6f00f76a75d9d650d008e4a510e)\Submission attachment(s)\Project2-cabramson3-Python2.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Original\P2-2014\Absher, Ian(90bc16fae739004d71361ad6585f3907)\Submission attachment(s)\Project2-iabsher3-Python2.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Original\P2-2014\Alagar Raj, Kannan(41e869b8be1ff2f45a0f7679f0612c02)\Submission attachment(s)\Project2-kar3-java.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Original\P2-2014\Alexandrov, Vitali(c87f16d0e9cda269a5c19e68612109b1)\Submission attachment(s)\Project2-valexandrov3-Java.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Original\P2-2014\Alexiev, Valeri(fdff9c54a88cb0c4288d5d2618f64fd8)\Submission attachment(s)\Project2-valexiev3-Java.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Original\P2-2014\Altmansberger, Timothy(b72a6ef515dfe775b81c412263fcc24d)\Submission attachment(s)\Project2-tca3-java.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Original\P2-2014\Alwarappan, Ganapathi(21f2212719b3c956cfeec91a639a019f)\Submission attachment(s)\Project2-galwarappan3-Java.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Original\P2-2014\Argain, Frank(6555850a55640f87137d0f2cfe2d9553)\Submission attachment(s)\Project2-fargain3-Python2.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Original\P2-2014\Argroves, Nathan(e4eccfa8a9dceb2e2902c8b052ce85b4)\Submission attachment(s)\Project2-nargroves3-Java.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Original\P2-2014\Aslam, Hassaan(5041308ef3585f4cd6051da1dccd4331)\Submission attachment(s)\Project2-haslam7-java.zip
+Showing Files
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Current\P1-2015
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Current\P2-2015
+Showing Files
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Current\P1-2015\Aslam, Hassaan(5041308ef3585f4cd6051da1dccd4331)\Submission attachment(s)\Project1-haslam7-java.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Current\P1-2015\Barriere, Jared(6dd2834f48df3df6a34b2a18cd8d9183)\Submission attachment(s)\Project1-jbarriere3-Python 2.6.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Current\P1-2015\Beard, Brett(168e38a05dfd8bb5e4d1aa3084f98cec)\Submission attachment(s)\Project1-bbeard3-java.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Current\P1-2015\Bela, Petr(8ad9f0dafee6ae05cb24c524ba664fa9)\Submission attachment(s)\Project1-pbela3-Python2.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Current\P1-2015\Bennett, Casey(54fa6a0de05f3e459300f9e94f7228cf)\Submission attachment(s)\Project1-cbennett35-Java.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Current\P1-2015\Berys-Gonzalez, Carolina(a876148095ff319cdf1d6d971f2c0ca5)\Submission attachment(s)\Project1-cbg3-Python2.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Current\P1-2015\Betzel, Scott(0db34975171811623b0aa2e1bea58039)\Submission attachment(s)\Project1-gtg678m-java.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Current\P1-2015\Birmingham, Phillip(ca887cc7aa57c243cc6386fcccc04860)\Submission attachment(s)\Project1-pbirmingham3-python3.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Current\P1-2015\Bishtawi, Stephen(f0dcd3dbbbf32666f1797c956731b6e9)\Submission attachment(s)\Project1-sbishtawi3-Python2.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Current\P1-2015\Blackburn, Phillip(a078102843453dd4fe10ec0873d6e998)\Submission attachment(s)\Project1-pblackburn6-Java.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Current\P1-2015\Blacker, Jordan(82d08df03494defb6b12f52319752fdc)\Submission attachment(s)\Project1-jblacker3-java.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Current\P1-2015\Brito, Diogenes(c251f60fcccb749423e34d7570ceecca)\Submission attachment(s)\Project1-dbrito3-Python3.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Current\P1-2015\Brown, Audra(b5f5712a90500dff54746d526db0d879)\Submission attachment(s)\Project1-abrown360-Python2.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Current\P1-2015\Brown, Michael(86c7ea55381094ef1374bc79524ba7b7)\Submission attachment(s)\Project1-mbrown337-Java.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Current\P1-2015\Bui, Linh(6e43dde6ee96247f8d811d9acb6687e3)\Submission attachment(s)\Project1-lbui7-Java.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Current\P1-2015\Butler, Jeffrey(0c44d3ae94ffd980f530907abdfdb901)\Submission attachment(s)\Project1-jbutler49-Java.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Current\P2-2015\Aslam, Hassaan(5041308ef3585f4cd6051da1dccd4331)\Submission attachment(s)\Project2-haslam7-java.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Current\P2-2015\Barriere, Jared(6dd2834f48df3df6a34b2a18cd8d9183)\Submission attachment(s)\Project2-jbarriere3-Python 2.6.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Current\P2-2015\Beard, Brett(168e38a05dfd8bb5e4d1aa3084f98cec)\Submission attachment(s)\Project2-bbeard3-java.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Current\P2-2015\Bela, Petr(8ad9f0dafee6ae05cb24c524ba664fa9)\Submission attachment(s)\Project2-pbela3-Python2.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Current\P2-2015\Bennett, Casey(54fa6a0de05f3e459300f9e94f7228cf)\Submission attachment(s)\Project2-cbennett35-Java.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Current\P2-2015\Berys-Gonzalez, Carolina(a876148095ff319cdf1d6d971f2c0ca5)\Submission attachment(s)\Project2-cbg3-Python2.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Current\P2-2015\Betzel, Scott(0db34975171811623b0aa2e1bea58039)\Submission attachment(s)\Project2-gtg678m-java.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Current\P2-2015\Birmingham, Phillip(ca887cc7aa57c243cc6386fcccc04860)\Submission attachment(s)\project2-pbirmingham3-python3.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Current\P2-2015\Bishtawi, Stephen(f0dcd3dbbbf32666f1797c956731b6e9)\Submission attachment(s)\Project2-sbishtawi3-Python2.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Current\P2-2015\Blacker, Jordan(82d08df03494defb6b12f52319752fdc)\Submission attachment(s)\Project2-jblacker3-java.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Current\P2-2015\Brito, Diogenes(c251f60fcccb749423e34d7570ceecca)\Submission attachment(s)\Project2-dbrito3-Python3.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Current\P2-2015\Brown, Audra(b5f5712a90500dff54746d526db0d879)\Submission attachment(s)\Project2-abrown360-Python2.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Current\P2-2015\Brown, Michael(86c7ea55381094ef1374bc79524ba7b7)\Submission attachment(s)\Project2-mbrown337-Java.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Current\P2-2015\Bui, Linh(6e43dde6ee96247f8d811d9acb6687e3)\Submission attachment(s)\Project2-lbui7-Java.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Current\P2-2015\Butler, Jeffrey(0c44d3ae94ffd980f530907abdfdb901)\Submission attachment(s)\Project2-jbutler49-Java.zip
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2014\Alagar_Raj,_Kannan(41e869b8be1ff2f45a0f7679f0612c02)\Agent.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2014\Alagar_Raj,_Kannan(41e869b8be1ff2f45a0f7679f0612c02)\EdgeObjectProperties.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2014\Alagar_Raj,_Kannan(41e869b8be1ff2f45a0f7679f0612c02)\EdgeProperties.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2014\Alagar_Raj,_Kannan(41e869b8be1ff2f45a0f7679f0612c02)\ObjectProperties.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2014\Alexandrov,_Vitali(c87f16d0e9cda269a5c19e68612109b1)\Agent.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2014\Alexandrov,_Vitali(c87f16d0e9cda269a5c19e68612109b1)\ComparisonUtility.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2014\Alexandrov,_Vitali(c87f16d0e9cda269a5c19e68612109b1)\Transformations.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2014\Alexiev,_Valeri(fdff9c54a88cb0c4288d5d2618f64fd8)\Agent.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2014\Alexiev,_Valeri(fdff9c54a88cb0c4288d5d2618f64fd8)\SemanticNet.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2014\Alexiev,_Valeri(fdff9c54a88cb0c4288d5d2618f64fd8)\Transform.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2014\Altmansberger,_Timothy(b72a6ef515dfe775b81c412263fcc24d)\Agent.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2014\Altmansberger,_Timothy(b72a6ef515dfe775b81c412263fcc24d)\ObjectPairingList.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2014\Altmansberger,_Timothy(b72a6ef515dfe775b81c412263fcc24d)\TransformList.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2014\Alwarappan,_Ganapathi(21f2212719b3c956cfeec91a639a019f)\Agent.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2014\Alwarappan,_Ganapathi(21f2212719b3c956cfeec91a639a019f)\Element.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2014\Alwarappan,_Ganapathi(21f2212719b3c956cfeec91a639a019f)\KnowledgeDB.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2014\Alwarappan,_Ganapathi(21f2212719b3c956cfeec91a639a019f)\Node.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2014\Alwarappan,_Ganapathi(21f2212719b3c956cfeec91a639a019f)\Placement.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2014\Alwarappan,_Ganapathi(21f2212719b3c956cfeec91a639a019f)\RuleInferencer.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2014\Argroves,_Nathan(e4eccfa8a9dceb2e2902c8b052ce85b4)\._ProblemSet.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2014\Argroves,_Nathan(e4eccfa8a9dceb2e2902c8b052ce85b4)\._RavensFigure.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2014\Argroves,_Nathan(e4eccfa8a9dceb2e2902c8b052ce85b4)\._RavensObject.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2014\Argroves,_Nathan(e4eccfa8a9dceb2e2902c8b052ce85b4)\._RavensProblem.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2014\Argroves,_Nathan(e4eccfa8a9dceb2e2902c8b052ce85b4)\._RavensProject.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2014\Argroves,_Nathan(e4eccfa8a9dceb2e2902c8b052ce85b4)\Agent.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2014\Argroves,_Nathan(e4eccfa8a9dceb2e2902c8b052ce85b4)\ProblemSet.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2014\Argroves,_Nathan(e4eccfa8a9dceb2e2902c8b052ce85b4)\RavensFigure.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2014\Argroves,_Nathan(e4eccfa8a9dceb2e2902c8b052ce85b4)\RavensObject.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2014\Argroves,_Nathan(e4eccfa8a9dceb2e2902c8b052ce85b4)\RavensProblem.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2014\Argroves,_Nathan(e4eccfa8a9dceb2e2902c8b052ce85b4)\RavensProject.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2014\Aslam,_Hassaan(5041308ef3585f4cd6051da1dccd4331)\Agent.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2014\Aslam,_Hassaan(5041308ef3585f4cd6051da1dccd4331)\MeansEndAnalysis.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2014\Aslam,_Hassaan(5041308ef3585f4cd6051da1dccd4331)\ProductionSystem.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Aslam,_Hassaan(5041308ef3585f4cd6051da1dccd4331)\Agent.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Aslam,_Hassaan(5041308ef3585f4cd6051da1dccd4331)\MeansEndAnalysis.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Aslam,_Hassaan(5041308ef3585f4cd6051da1dccd4331)\ProductionSystem.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Beard,_Brett(168e38a05dfd8bb5e4d1aa3084f98cec)\Agent.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Beard,_Brett(168e38a05dfd8bb5e4d1aa3084f98cec)\Change.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Beard,_Brett(168e38a05dfd8bb5e4d1aa3084f98cec)\Frame.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Beard,_Brett(168e38a05dfd8bb5e4d1aa3084f98cec)\FrameObject.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Beard,_Brett(168e38a05dfd8bb5e4d1aa3084f98cec)\ISlot.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Beard,_Brett(168e38a05dfd8bb5e4d1aa3084f98cec)\SlotAlignment.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Beard,_Brett(168e38a05dfd8bb5e4d1aa3084f98cec)\SlotAngle.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Beard,_Brett(168e38a05dfd8bb5e4d1aa3084f98cec)\SlotText.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Beard,_Brett(168e38a05dfd8bb5e4d1aa3084f98cec)\Transformation.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bennett,_Casey(54fa6a0de05f3e459300f9e94f7228cf)\Agent.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bennett,_Casey(54fa6a0de05f3e459300f9e94f7228cf)\CompositeTransformation.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bennett,_Casey(54fa6a0de05f3e459300f9e94f7228cf)\CostComparator.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bennett,_Casey(54fa6a0de05f3e459300f9e94f7228cf)\DeletionTransformation.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bennett,_Casey(54fa6a0de05f3e459300f9e94f7228cf)\EquivalenceChecker.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bennett,_Casey(54fa6a0de05f3e459300f9e94f7228cf)\FigureTransformation.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bennett,_Casey(54fa6a0de05f3e459300f9e94f7228cf)\FillTransformation.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bennett,_Casey(54fa6a0de05f3e459300f9e94f7228cf)\HasCost.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bennett,_Casey(54fa6a0de05f3e459300f9e94f7228cf)\NullTransformation.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bennett,_Casey(54fa6a0de05f3e459300f9e94f7228cf)\ObjectMatcher.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bennett,_Casey(54fa6a0de05f3e459300f9e94f7228cf)\ProblemSolver.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bennett,_Casey(54fa6a0de05f3e459300f9e94f7228cf)\ReflectionTransformation.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bennett,_Casey(54fa6a0de05f3e459300f9e94f7228cf)\RotationTransformation.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bennett,_Casey(54fa6a0de05f3e459300f9e94f7228cf)\ScaleTransformation.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bennett,_Casey(54fa6a0de05f3e459300f9e94f7228cf)\ShapeFacts.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bennett,_Casey(54fa6a0de05f3e459300f9e94f7228cf)\ShapeshiftTransformation.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bennett,_Casey(54fa6a0de05f3e459300f9e94f7228cf)\Transformation.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\AboveComparator.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\Agent.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\AlignmentComparator.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\AngleComparator.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\CollectionHelper.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\DiffHelper.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\FillComparator.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\Frame.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\FrameGroup.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\FrameMatrix.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\GeneralComparator.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\IAttributeComparator.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\IComparator.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\IFrame.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\IFrameGroup.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\InsideComparator.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\ISolver.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\MasterComparator.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\OverlapsComparator.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\Pair.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\ShapeComparator.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\SizeComparator.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\SolverFactory.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Blackburn,_Phillip(a078102843453dd4fe10ec0873d6e998)\Agent.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Blacker,_Jordan(82d08df03494defb6b12f52319752fdc)\Agent.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Blacker,_Jordan(82d08df03494defb6b12f52319752fdc)\AnswerGenerator.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Blacker,_Jordan(82d08df03494defb6b12f52319752fdc)\AnswerTester.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Blacker,_Jordan(82d08df03494defb6b12f52319752fdc)\FigureNetwork.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Blacker,_Jordan(82d08df03494defb6b12f52319752fdc)\MatrixSize.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Blacker,_Jordan(82d08df03494defb6b12f52319752fdc)\ProblemNetwork.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Blacker,_Jordan(82d08df03494defb6b12f52319752fdc)\RavensTransition.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Blacker,_Jordan(82d08df03494defb6b12f52319752fdc)\Transition.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Blacker,_Jordan(82d08df03494defb6b12f52319752fdc)\TransitionFactory.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Blacker,_Jordan(82d08df03494defb6b12f52319752fdc)\TransitionType.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Blacker,_Jordan(82d08df03494defb6b12f52319752fdc)\TripleStore.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Brown,_Michael(86c7ea55381094ef1374bc79524ba7b7)\Agent.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Brown,_Michael(86c7ea55381094ef1374bc79524ba7b7)\CorrespondenceUtilities.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Brown,_Michael(86c7ea55381094ef1374bc79524ba7b7)\FigureCorrespondence.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Brown,_Michael(86c7ea55381094ef1374bc79524ba7b7)\FigureTransformation.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Brown,_Michael(86c7ea55381094ef1374bc79524ba7b7)\ObjectCorrespondence.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Brown,_Michael(86c7ea55381094ef1374bc79524ba7b7)\ObjectTransformation.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Brown,_Michael(86c7ea55381094ef1374bc79524ba7b7)\RavensSolution.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Brown,_Michael(86c7ea55381094ef1374bc79524ba7b7)\RavensStrategy.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Brown,_Michael(86c7ea55381094ef1374bc79524ba7b7)\SNGT2x2Verbal.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Brown,_Michael(86c7ea55381094ef1374bc79524ba7b7)\TransformationUtilities.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\Agent.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\HorizontalReflection.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\NetworkEdge.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\ObjectAdded.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\ObjectDeleted.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\ObjectPairing.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\OppositeFill.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\RelationshipNetworkEdge.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\Rotation.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\Scaling.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\SemanticNetwork.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\Transformation.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\TransformationNetworkEdge.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\Unchanging.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\Utilities.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\VerticalReflection.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Butler,_Jeffrey(0c44d3ae94ffd980f530907abdfdb901)\Agent.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Alagar_Raj,_Kannan(41e869b8be1ff2f45a0f7679f0612c02)\Agent.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Alagar_Raj,_Kannan(41e869b8be1ff2f45a0f7679f0612c02)\EdgeObjectProperties.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Alagar_Raj,_Kannan(41e869b8be1ff2f45a0f7679f0612c02)\EdgeProperties.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Alagar_Raj,_Kannan(41e869b8be1ff2f45a0f7679f0612c02)\EdgeProperties33.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Alagar_Raj,_Kannan(41e869b8be1ff2f45a0f7679f0612c02)\ObjectProperties.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Alexandrov,_Vitali(c87f16d0e9cda269a5c19e68612109b1)\Agent.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Alexandrov,_Vitali(c87f16d0e9cda269a5c19e68612109b1)\ComparisonUtility.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Alexandrov,_Vitali(c87f16d0e9cda269a5c19e68612109b1)\Transformations.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Alexiev,_Valeri(fdff9c54a88cb0c4288d5d2618f64fd8)\Agent.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Alexiev,_Valeri(fdff9c54a88cb0c4288d5d2618f64fd8)\ImageComposition.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Alexiev,_Valeri(fdff9c54a88cb0c4288d5d2618f64fd8)\Transform.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Altmansberger,_Timothy(b72a6ef515dfe775b81c412263fcc24d)\Agent.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Altmansberger,_Timothy(b72a6ef515dfe775b81c412263fcc24d)\ObjectPairingList.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Altmansberger,_Timothy(b72a6ef515dfe775b81c412263fcc24d)\TransformList.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Alwarappan,_Ganapathi(21f2212719b3c956cfeec91a639a019f)\Agent.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Alwarappan,_Ganapathi(21f2212719b3c956cfeec91a639a019f)\KnowledgeDB.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Alwarappan,_Ganapathi(21f2212719b3c956cfeec91a639a019f)\Node.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Alwarappan,_Ganapathi(21f2212719b3c956cfeec91a639a019f)\Placement.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Alwarappan,_Ganapathi(21f2212719b3c956cfeec91a639a019f)\RuleInferencer.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Argroves,_Nathan(e4eccfa8a9dceb2e2902c8b052ce85b4)\._ProblemSet.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Argroves,_Nathan(e4eccfa8a9dceb2e2902c8b052ce85b4)\._RavensFigure.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Argroves,_Nathan(e4eccfa8a9dceb2e2902c8b052ce85b4)\._RavensObject.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Argroves,_Nathan(e4eccfa8a9dceb2e2902c8b052ce85b4)\._RavensProblem.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Argroves,_Nathan(e4eccfa8a9dceb2e2902c8b052ce85b4)\._RavensProject.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Argroves,_Nathan(e4eccfa8a9dceb2e2902c8b052ce85b4)\Agent.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Argroves,_Nathan(e4eccfa8a9dceb2e2902c8b052ce85b4)\ProblemSet.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Argroves,_Nathan(e4eccfa8a9dceb2e2902c8b052ce85b4)\RavensFigure.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Argroves,_Nathan(e4eccfa8a9dceb2e2902c8b052ce85b4)\RavensObject.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Argroves,_Nathan(e4eccfa8a9dceb2e2902c8b052ce85b4)\RavensProblem.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Argroves,_Nathan(e4eccfa8a9dceb2e2902c8b052ce85b4)\RavensProject.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Aslam,_Hassaan(5041308ef3585f4cd6051da1dccd4331)\Agent.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Aslam,_Hassaan(5041308ef3585f4cd6051da1dccd4331)\GenerateAndTest3x3.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Aslam,_Hassaan(5041308ef3585f4cd6051da1dccd4331)\MeansEndAnalysis.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Aslam,_Hassaan(5041308ef3585f4cd6051da1dccd4331)\ProblemSet.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Aslam,_Hassaan(5041308ef3585f4cd6051da1dccd4331)\ProductionSystem.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Aslam,_Hassaan(5041308ef3585f4cd6051da1dccd4331)\ProductionSystem3x3.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Aslam,_Hassaan(5041308ef3585f4cd6051da1dccd4331)\ProductionSystemRules.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Aslam,_Hassaan(5041308ef3585f4cd6051da1dccd4331)\RavensFigure.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Aslam,_Hassaan(5041308ef3585f4cd6051da1dccd4331)\RavensFigureUtilities.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Aslam,_Hassaan(5041308ef3585f4cd6051da1dccd4331)\RavensObject.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Aslam,_Hassaan(5041308ef3585f4cd6051da1dccd4331)\RavensProblem.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Aslam,_Hassaan(5041308ef3585f4cd6051da1dccd4331)\RavensProject.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Aslam,_Hassaan(5041308ef3585f4cd6051da1dccd4331)\Transformations.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Aslam,_Hassaan(5041308ef3585f4cd6051da1dccd4331)\Agent.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Aslam,_Hassaan(5041308ef3585f4cd6051da1dccd4331)\GenerateAndTest3x3.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Aslam,_Hassaan(5041308ef3585f4cd6051da1dccd4331)\MeansEndAnalysis.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Aslam,_Hassaan(5041308ef3585f4cd6051da1dccd4331)\ProblemSet.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Aslam,_Hassaan(5041308ef3585f4cd6051da1dccd4331)\ProductionSystem.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Aslam,_Hassaan(5041308ef3585f4cd6051da1dccd4331)\ProductionSystem3x3.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Aslam,_Hassaan(5041308ef3585f4cd6051da1dccd4331)\ProductionSystemRules.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Aslam,_Hassaan(5041308ef3585f4cd6051da1dccd4331)\RavensFigure.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Aslam,_Hassaan(5041308ef3585f4cd6051da1dccd4331)\RavensFigureUtilities.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Aslam,_Hassaan(5041308ef3585f4cd6051da1dccd4331)\RavensObject.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Aslam,_Hassaan(5041308ef3585f4cd6051da1dccd4331)\RavensProblem.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Aslam,_Hassaan(5041308ef3585f4cd6051da1dccd4331)\RavensProject.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Aslam,_Hassaan(5041308ef3585f4cd6051da1dccd4331)\Transformations.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Beard,_Brett(168e38a05dfd8bb5e4d1aa3084f98cec)\Agent.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Beard,_Brett(168e38a05dfd8bb5e4d1aa3084f98cec)\Cell.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Beard,_Brett(168e38a05dfd8bb5e4d1aa3084f98cec)\CellObject.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Beard,_Brett(168e38a05dfd8bb5e4d1aa3084f98cec)\Change.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Beard,_Brett(168e38a05dfd8bb5e4d1aa3084f98cec)\Frame.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Beard,_Brett(168e38a05dfd8bb5e4d1aa3084f98cec)\FrameObject.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Beard,_Brett(168e38a05dfd8bb5e4d1aa3084f98cec)\ISlot.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Beard,_Brett(168e38a05dfd8bb5e4d1aa3084f98cec)\ProblemSet.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Beard,_Brett(168e38a05dfd8bb5e4d1aa3084f98cec)\RavensFigure.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Beard,_Brett(168e38a05dfd8bb5e4d1aa3084f98cec)\RavensObject.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Beard,_Brett(168e38a05dfd8bb5e4d1aa3084f98cec)\RavensProblem.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Beard,_Brett(168e38a05dfd8bb5e4d1aa3084f98cec)\RavensProject.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Beard,_Brett(168e38a05dfd8bb5e4d1aa3084f98cec)\SlotAlignment.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Beard,_Brett(168e38a05dfd8bb5e4d1aa3084f98cec)\SlotAngle.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Beard,_Brett(168e38a05dfd8bb5e4d1aa3084f98cec)\SlotText.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Beard,_Brett(168e38a05dfd8bb5e4d1aa3084f98cec)\Transformation.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bennett,_Casey(54fa6a0de05f3e459300f9e94f7228cf)\Agent.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bennett,_Casey(54fa6a0de05f3e459300f9e94f7228cf)\Axis.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bennett,_Casey(54fa6a0de05f3e459300f9e94f7228cf)\CompositeTransformation.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bennett,_Casey(54fa6a0de05f3e459300f9e94f7228cf)\CostComparator.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bennett,_Casey(54fa6a0de05f3e459300f9e94f7228cf)\DeletionTransformation.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bennett,_Casey(54fa6a0de05f3e459300f9e94f7228cf)\FigureTransformation.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bennett,_Casey(54fa6a0de05f3e459300f9e94f7228cf)\FillTransformation.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bennett,_Casey(54fa6a0de05f3e459300f9e94f7228cf)\HasCost.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bennett,_Casey(54fa6a0de05f3e459300f9e94f7228cf)\MoveTransformation.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bennett,_Casey(54fa6a0de05f3e459300f9e94f7228cf)\NullTransformation.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bennett,_Casey(54fa6a0de05f3e459300f9e94f7228cf)\ObjectMatcher.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bennett,_Casey(54fa6a0de05f3e459300f9e94f7228cf)\OrderFinder.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bennett,_Casey(54fa6a0de05f3e459300f9e94f7228cf)\PotentialSolution.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bennett,_Casey(54fa6a0de05f3e459300f9e94f7228cf)\ProblemSolver.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bennett,_Casey(54fa6a0de05f3e459300f9e94f7228cf)\ReflectionTransformation.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bennett,_Casey(54fa6a0de05f3e459300f9e94f7228cf)\RotationTransformation.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bennett,_Casey(54fa6a0de05f3e459300f9e94f7228cf)\ScaleTransformation.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bennett,_Casey(54fa6a0de05f3e459300f9e94f7228cf)\ShapeFacts.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bennett,_Casey(54fa6a0de05f3e459300f9e94f7228cf)\ShapeshiftTransformation.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bennett,_Casey(54fa6a0de05f3e459300f9e94f7228cf)\StretchTransformation.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bennett,_Casey(54fa6a0de05f3e459300f9e94f7228cf)\Transformation.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bennett,_Casey(54fa6a0de05f3e459300f9e94f7228cf)\Utils.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\Agent.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\AgentBase.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\Circle.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\CollectionHelper.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\DataGenerator.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\DiffHelper.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\DistinctShapeCountAgent.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\FillCountAgent.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\Frame.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\FrameDifferenceAgent.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\FrameGroup.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\FrameSlot.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\FrameSlotMapping.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\FrameValueCountAgent.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\GeneralShapeCountAgent.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\LoggingHelper.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\MultiLayerNeuralNetwork.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\MultiLayerNeuralNetworkNode.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\NeuralNetwork.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\package-info.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\PixelCountAgent.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\SimpleCountAgentBase.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\SlotNames.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\SpecificShapeCountAgent.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\StringHelper.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\TransitionComparisonAgent.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\TransitionFrame.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Betzel,_Scott(0db34975171811623b0aa2e1bea58039)\TransitionFrameGroup.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Blacker,_Jordan(82d08df03494defb6b12f52319752fdc)\Agent.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Blacker,_Jordan(82d08df03494defb6b12f52319752fdc)\AnswerGenerator.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Blacker,_Jordan(82d08df03494defb6b12f52319752fdc)\AnswerTester2x2.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Blacker,_Jordan(82d08df03494defb6b12f52319752fdc)\AnswerTester3x3.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Blacker,_Jordan(82d08df03494defb6b12f52319752fdc)\FigureNetwork.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Blacker,_Jordan(82d08df03494defb6b12f52319752fdc)\FigureTree.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Blacker,_Jordan(82d08df03494defb6b12f52319752fdc)\MatrixSize.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Blacker,_Jordan(82d08df03494defb6b12f52319752fdc)\ProblemNetwork.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Blacker,_Jordan(82d08df03494defb6b12f52319752fdc)\ProblemSet.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Blacker,_Jordan(82d08df03494defb6b12f52319752fdc)\RavensTransition.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Blacker,_Jordan(82d08df03494defb6b12f52319752fdc)\SimilarityChecks.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Blacker,_Jordan(82d08df03494defb6b12f52319752fdc)\Transition.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Blacker,_Jordan(82d08df03494defb6b12f52319752fdc)\TransitionFactory.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Blacker,_Jordan(82d08df03494defb6b12f52319752fdc)\TransitionType.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Blacker,_Jordan(82d08df03494defb6b12f52319752fdc)\TripleStore.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Brown,_Michael(86c7ea55381094ef1374bc79524ba7b7)\Agent.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Brown,_Michael(86c7ea55381094ef1374bc79524ba7b7)\CorrespondenceUtilities.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Brown,_Michael(86c7ea55381094ef1374bc79524ba7b7)\FigureCorrespondence.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Brown,_Michael(86c7ea55381094ef1374bc79524ba7b7)\FigureTransformation.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Brown,_Michael(86c7ea55381094ef1374bc79524ba7b7)\MitosisPattern.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Brown,_Michael(86c7ea55381094ef1374bc79524ba7b7)\MultiplicativeObjectCountPattern.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Brown,_Michael(86c7ea55381094ef1374bc79524ba7b7)\MultiplicativeSizePattern.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Brown,_Michael(86c7ea55381094ef1374bc79524ba7b7)\ObjectCorrespondence.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Brown,_Michael(86c7ea55381094ef1374bc79524ba7b7)\ObjectTransformation.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Brown,_Michael(86c7ea55381094ef1374bc79524ba7b7)\Pattern.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Brown,_Michael(86c7ea55381094ef1374bc79524ba7b7)\PatternMatchingUtilities.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Brown,_Michael(86c7ea55381094ef1374bc79524ba7b7)\ProblemReductionUtilities.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Brown,_Michael(86c7ea55381094ef1374bc79524ba7b7)\RavensSolution.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Brown,_Michael(86c7ea55381094ef1374bc79524ba7b7)\RavensStrategy.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Brown,_Michael(86c7ea55381094ef1374bc79524ba7b7)\RPM3x3Verbal.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Brown,_Michael(86c7ea55381094ef1374bc79524ba7b7)\SeriesTransformation.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Brown,_Michael(86c7ea55381094ef1374bc79524ba7b7)\SNGT2x2Verbal.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Brown,_Michael(86c7ea55381094ef1374bc79524ba7b7)\SNGT3x3Verbal.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Brown,_Michael(86c7ea55381094ef1374bc79524ba7b7)\TransformationUtilities.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\._ProblemSet.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\._RavensFigure.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\._RavensObject.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\._RavensProblem.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\._RavensProject.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\Agent.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\AttributeComparator.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\HorizontalReflection.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\HorizontalScaling.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\NetworkEdge.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\ObjectAdded.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\ObjectDeleted.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\ObjectPairing.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\ObjectWrapper.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\OppositeFill.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\ProblemSet.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\RavensFigure.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\RavensObject.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\RavensProblem.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\RavensProject.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\RelationshipNetworkEdge.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\Rotation.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\Scaling.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\SemanticNetwork.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\ShapeChanging.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\Transformation.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\TransformationNetworkEdge.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\Unchanging.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\Utilities.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bui,_Linh(6e43dde6ee96247f8d811d9acb6687e3)\VerticalReflection.java
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Butler,_Jeffrey(0c44d3ae94ffd980f530907abdfdb901)\Agent.java
+starting SocketClient Java : data\Upload
+uploading basefiles
+uploading sourcefiles
+sending query
+Results available at http://moss.stanford.edu/results/159861243
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2014\Abramson,_Christopher(11a3b6f00f76a75d9d650d008e4a510e)\Agent.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2014\Absher,_Ian(90bc16fae739004d71361ad6585f3907)\Agent.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2014\Argain,_Frank(6555850a55640f87137d0f2cfe2d9553)\Agent.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Barriere,_Jared(6dd2834f48df3df6a34b2a18cd8d9183)\Agent.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bela,_Petr(8ad9f0dafee6ae05cb24c524ba664fa9)\._Agent.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bela,_Petr(8ad9f0dafee6ae05cb24c524ba664fa9)\._ProblemSet.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bela,_Petr(8ad9f0dafee6ae05cb24c524ba664fa9)\._RavensFigure.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bela,_Petr(8ad9f0dafee6ae05cb24c524ba664fa9)\._RavensObject.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bela,_Petr(8ad9f0dafee6ae05cb24c524ba664fa9)\._RavensProblem.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bela,_Petr(8ad9f0dafee6ae05cb24c524ba664fa9)\._RavensProject.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bela,_Petr(8ad9f0dafee6ae05cb24c524ba664fa9)\._Transformation.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bela,_Petr(8ad9f0dafee6ae05cb24c524ba664fa9)\Agent.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bela,_Petr(8ad9f0dafee6ae05cb24c524ba664fa9)\ProblemSet.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bela,_Petr(8ad9f0dafee6ae05cb24c524ba664fa9)\RavensFigure.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bela,_Petr(8ad9f0dafee6ae05cb24c524ba664fa9)\RavensObject.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bela,_Petr(8ad9f0dafee6ae05cb24c524ba664fa9)\RavensProblem.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bela,_Petr(8ad9f0dafee6ae05cb24c524ba664fa9)\RavensProject.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bela,_Petr(8ad9f0dafee6ae05cb24c524ba664fa9)\Transformation.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Berys-Gonzalez,_Carolina(a876148095ff319cdf1d6d971f2c0ca5)\._Agent.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Berys-Gonzalez,_Carolina(a876148095ff319cdf1d6d971f2c0ca5)\Agent.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Birmingham,_Phillip(ca887cc7aa57c243cc6386fcccc04860)\Agent.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bishtawi,_Stephen(f0dcd3dbbbf32666f1797c956731b6e9)\Agent.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bishtawi,_Stephen(f0dcd3dbbbf32666f1797c956731b6e9)\generateAndTest.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bishtawi,_Stephen(f0dcd3dbbbf32666f1797c956731b6e9)\semanticNetwork.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Bishtawi,_Stephen(f0dcd3dbbbf32666f1797c956731b6e9)\__init__.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Brito,_Diogenes(c251f60fcccb749423e34d7570ceecca)\Agent.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Brito,_Diogenes(c251f60fcccb749423e34d7570ceecca)\ImageComparator.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Brown,_Audra(b5f5712a90500dff54746d526db0d879)\Agent.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P1-2015\Brown,_Audra(b5f5712a90500dff54746d526db0d879)\VisualTest.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Abramson,_Christopher(11a3b6f00f76a75d9d650d008e4a510e)\Agent.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Abramson,_Christopher(11a3b6f00f76a75d9d650d008e4a510e)\ProblemSet.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Abramson,_Christopher(11a3b6f00f76a75d9d650d008e4a510e)\RavensFigure.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Abramson,_Christopher(11a3b6f00f76a75d9d650d008e4a510e)\RavensObject.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Abramson,_Christopher(11a3b6f00f76a75d9d650d008e4a510e)\RavensProblem.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Abramson,_Christopher(11a3b6f00f76a75d9d650d008e4a510e)\RavensProject.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Absher,_Ian(90bc16fae739004d71361ad6585f3907)\Agent.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Absher,_Ian(90bc16fae739004d71361ad6585f3907)\SimpleVerbal.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Absher,_Ian(90bc16fae739004d71361ad6585f3907)\Verbal.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Absher,_Ian(90bc16fae739004d71361ad6585f3907)\Visual.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2014\Argain,_Frank(6555850a55640f87137d0f2cfe2d9553)\Agent.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Barriere,_Jared(6dd2834f48df3df6a34b2a18cd8d9183)\Agent.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bela,_Petr(8ad9f0dafee6ae05cb24c524ba664fa9)\._Agent.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bela,_Petr(8ad9f0dafee6ae05cb24c524ba664fa9)\._Agent2x2.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bela,_Petr(8ad9f0dafee6ae05cb24c524ba664fa9)\._Agent3x3.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bela,_Petr(8ad9f0dafee6ae05cb24c524ba664fa9)\._FigureTransformation.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bela,_Petr(8ad9f0dafee6ae05cb24c524ba664fa9)\._ObjectTransformation.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bela,_Petr(8ad9f0dafee6ae05cb24c524ba664fa9)\Agent.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bela,_Petr(8ad9f0dafee6ae05cb24c524ba664fa9)\Agent2x2.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bela,_Petr(8ad9f0dafee6ae05cb24c524ba664fa9)\Agent3x3.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bela,_Petr(8ad9f0dafee6ae05cb24c524ba664fa9)\FigureTransformation.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bela,_Petr(8ad9f0dafee6ae05cb24c524ba664fa9)\ObjectTransformation.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Berys-Gonzalez,_Carolina(a876148095ff319cdf1d6d971f2c0ca5)\._Agent.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Berys-Gonzalez,_Carolina(a876148095ff319cdf1d6d971f2c0ca5)\Agent.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Birmingham,_Phillip(ca887cc7aa57c243cc6386fcccc04860)\Agent.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Birmingham,_Phillip(ca887cc7aa57c243cc6386fcccc04860)\networks.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Birmingham,_Phillip(ca887cc7aa57c243cc6386fcccc04860)\patterns.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Birmingham,_Phillip(ca887cc7aa57c243cc6386fcccc04860)\scoring.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bishtawi,_Stephen(f0dcd3dbbbf32666f1797c956731b6e9)\Agent.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bishtawi,_Stephen(f0dcd3dbbbf32666f1797c956731b6e9)\generateAndTest2.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bishtawi,_Stephen(f0dcd3dbbbf32666f1797c956731b6e9)\generateAndTest3.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bishtawi,_Stephen(f0dcd3dbbbf32666f1797c956731b6e9)\semanticNetwork.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Bishtawi,_Stephen(f0dcd3dbbbf32666f1797c956731b6e9)\__init__.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Brito,_Diogenes(c251f60fcccb749423e34d7570ceecca)\Agent.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Brito,_Diogenes(c251f60fcccb749423e34d7570ceecca)\ImageComparator.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Brito,_Diogenes(c251f60fcccb749423e34d7570ceecca)\ImageDetails.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Brito,_Diogenes(c251f60fcccb749423e34d7570ceecca)\SemanticTransformation.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Brito,_Diogenes(c251f60fcccb749423e34d7570ceecca)\utils.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Brito,_Diogenes(c251f60fcccb749423e34d7570ceecca)\weights.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Brown,_Audra(b5f5712a90500dff54746d526db0d879)\Agent.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Brown,_Audra(b5f5712a90500dff54746d526db0d879)\ShapeMinion.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Brown,_Audra(b5f5712a90500dff54746d526db0d879)\SliceMinion.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Brown,_Audra(b5f5712a90500dff54746d526db0d879)\VerityMinion.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Brown,_Audra(b5f5712a90500dff54746d526db0d879)\VisualTest.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Brown,_Audra(b5f5712a90500dff54746d526db0d879)\VisualTestLegacy.py
+C:\Users\Dana\Documents\GitHub\MOSS-TAPS\MossTaps\data\Upload\P2-2015\Brown,_Audra(b5f5712a90500dff54746d526db0d879)\WtMinion.py
+starting SocketClient Python : data\Upload
+uploading basefiles
+uploading sourcefiles
+sending query
+Results available at http://moss.stanford.edu/results/866747643
