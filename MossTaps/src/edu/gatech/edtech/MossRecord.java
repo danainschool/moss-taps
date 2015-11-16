@@ -3,6 +3,7 @@ package edu.gatech.edtech;
 import java.util.Comparator;
 
 public class MossRecord implements Comparable<MossRecord> {
+
 	private String studentA;
 	private String studentB;
 	private String mossCompareLink;
@@ -15,7 +16,20 @@ public class MossRecord implements Comparable<MossRecord> {
 	private int percentB;
 
 	public MossRecord() {
-		// TODO Auto-generated constructor stub
+	}
+	public MossRecord(String studentA, String studentB, String mossCompareLink, String projectA, String projectB,
+			boolean isCurrentProjectA, boolean isCurrentProjectB, int linesMatched, int percentA, int percentB) {
+		super();
+		this.studentA = studentA;
+		this.studentB = studentB;
+		this.mossCompareLink = mossCompareLink;
+		this.projectA = projectA;
+		this.projectB = projectB;
+		this.isCurrentProjectA = isCurrentProjectA;
+		this.isCurrentProjectB = isCurrentProjectB;
+		this.linesMatched = linesMatched;
+		this.percentA = percentA;
+		this.percentB = percentB;
 	}
 
 	@Override
