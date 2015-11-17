@@ -15,9 +15,6 @@ public class ResultsFilter {
 			"Lines Matched,Moss Link,"
 					+"Project1,Student1,Pct1,"
 					+"Project2,Student2,Pct2";
-	//TODO add csv fields
-//	+"Student1,Project1,Pct1,"
-//	+"Student2,Project2,Pct2";
 	private static final String COMMA = ",";
 	private static final String QUOTE = "\"";
 
