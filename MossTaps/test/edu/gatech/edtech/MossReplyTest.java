@@ -29,17 +29,30 @@ public class MossReplyTest {
 	public void tearDown() throws Exception {
 	}
 
-//	@Test
-//	public void test() {
-//		fail("Not yet implemented"); // 
-//	}
-//
 	@Test
-	public void testExtractMossLinks() throws IOException {
+	public void testExtractMossLinkProjectA() throws IOException {
 		List<MossRecord> testRecords = mr.extractMossLinks();
-		String comment = "test extractMossLinks";
-		String testValue = "C:/Upload/P1-2015/Blacker,_Jordan(82d08df03494defb6b12f52319752fdc)/ (87%)";
+		String comment = "test extract projectA from link";
+		String testValue = "P1-2015";
+		String testResult = testRecords.get(0).getProjectA();
+		assertEquals(comment, testValue, testResult);
+	}
+	
+	@Test
+	public void testExtractMossLinkStudentA() throws IOException {
+		List<MossRecord> testRecords = mr.extractMossLinks();
+		String comment = "test extract studentA from link";
+		String testValue = "Blacker,_Jordan(82d08df03494defb6b12f52319752fdc)";
 		String testResult = testRecords.get(0).getStudentA();
+		assertEquals(comment, testValue, testResult);
+	}
+
+	@Test
+	public void testExtractMossLinkPercentA() throws IOException {
+		List<MossRecord> testRecords = mr.extractMossLinks();
+		String comment = "test extract percentA from link";
+		int testValue = 87;
+		int testResult = testRecords.get(0).getPercentA();
 		assertEquals(comment, testValue, testResult);
 	}
 }

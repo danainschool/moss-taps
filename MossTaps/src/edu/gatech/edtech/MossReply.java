@@ -35,8 +35,8 @@ public class MossReply {
 				MossRecord record = new MossRecord();
 				Elements links = row.getElementsByTag("a");
 				if (links.size() == 2){
-					record.setStudentA(links.get(0).text());
-					record.setStudentB(links.get(1).text());
+					record.setProjectStudentPercentA(links.get(0).text());
+					record.setProjectStudentPercentB(links.get(1).text());
 					record.setMossCompareLink(links.get(0).attr("href"));
 				}
 				Elements cells = row.getElementsByTag("TD");
@@ -44,8 +44,14 @@ public class MossReply {
 					record.setLinesMatched(endNumber(cells.get(2).text()));
 				}
 				// only add if there was data
-				if(!(record.getStudentA()== null))
+				// and not the same student
+				// and at least one current project
+				if(!(record.getStudentA()== null)
+						&& !(record.getStudentA().equals(record.getStudentB()))
+						&& record.hasCurrentProject()		
+						) {
 					records.add(record);
+				}
 			}
 		}
 		return records;

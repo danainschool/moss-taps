@@ -1,6 +1,10 @@
 package edu.gatech.edtech;
 
+import java.io.File;
+import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.List;
+import java.util.Scanner;
 
 public class MossRecord implements Comparable<MossRecord> {
 
@@ -135,6 +139,73 @@ public class MossRecord implements Comparable<MossRecord> {
 
 	public static Comparator<MossRecord> getStudentComparator() {
 		return StudentComparator;
+	}
+	public void setProjectStudentPercentA(String text) {
+		Scanner scLinkText = new Scanner(text);
+		if (scLinkText.hasNext()){
+			List<String> fileWalk = splitFolderName(scLinkText);
+			if (fileWalk.size()>1){
+				setStudentA(fileWalk.get(fileWalk.size()-1));
+				setProjectA(fileWalk.get(fileWalk.size()-2));
+			}
+			else {
+				setStudentA("");
+				setProjectA("");
+			}
+		}
+		if (scLinkText.hasNext()){
+			try {
+				setPercentA(Integer.valueOf(scLinkText.next().replace("(", "").replace("%)","")));
+			} catch (NumberFormatException e) {
+				System.out.println("MossTaps did not capture percentage properly.");
+				setPercentA(0);
+			}
+		}
+		scLinkText.close();
+	}
+	
+	public void setProjectStudentPercentB(String text) {
+		Scanner scLinkText = new Scanner(text);
+		if (scLinkText.hasNext()){
+			List<String> fileWalk = splitFolderName(scLinkText);
+			if (fileWalk.size()>1){
+				setStudentB(fileWalk.get(fileWalk.size()-1));
+				setProjectB(fileWalk.get(fileWalk.size()-2));
+			}
+			else {
+				setStudentB("");
+				setProjectB("");
+			}
+		}
+		if (scLinkText.hasNext()){
+			try {
+				setPercentB(Integer.valueOf(scLinkText.next().replace("(", "").replace("%)","")));
+			} catch (NumberFormatException e) {
+				System.out.println("MossTaps did not capture percentage properly.");
+				setPercentB(0);
+			}
+		}
+		scLinkText.close();
+	}
+	private List<String> splitFolderName(Scanner scLinkText) {
+		Scanner scFolderName = new Scanner(scLinkText.next());
+		scFolderName.useDelimiter("/");
+		List<String> fileWalk = new ArrayList<String>();
+		while (scFolderName.hasNext()){
+			fileWalk.add(scFolderName.next());
+		}
+		scFolderName.close();
+		return fileWalk;
+	}
+	public boolean hasCurrentProject() {
+		StringBuilder sbA = new StringBuilder(getProjectA());
+		StringBuilder sbB = new StringBuilder(getProjectB());
+		try {
+			if (sbA.substring(0,2).equals("C_") || sbB.substring(0,2).equals("C_"))
+				return true;
+		} catch (Exception e) {
+		}
+		return false;
 	}
 	
 }

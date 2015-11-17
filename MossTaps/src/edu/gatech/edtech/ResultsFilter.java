@@ -13,8 +13,8 @@ import java.util.List;
 public class ResultsFilter {
 	private static final String CSV_HEADER = 
 			"Lines Matched,Moss Link,"
-					+"Student1,"
-					+"Student2";
+					+"Project1,Student1,Pct1,"
+					+"Project2,Student2,Pct2";
 	//TODO add csv fields
 //	+"Student1,Project1,Pct1,"
 //	+"Student2,Project2,Pct2";
@@ -46,12 +46,12 @@ public class ResultsFilter {
 			// put strings in quotes
 			String str = mr.getLinesMatched() + COMMA 
 					+ QUOTE + mr.getMossCompareLink() + QUOTE + COMMA
+					+ QUOTE + mr.getProjectA() + QUOTE + COMMA 
 					+ QUOTE + mr.getStudentA() + QUOTE + COMMA 
-					+ QUOTE + mr.getStudentB()+ QUOTE;
-			//TODO add csv fields
-//			String str = mr.getLinesMatched() + COMMA + mr.getMossCompareLink() + COMMA
-//					+mr.getStudentA() + COMMA + mr.getProjectA() + COMMA + mr.getPercentA() + COMMA
-//					+mr.getStudentB() + COMMA + mr.getProjectB() + COMMA + mr.getPercentB();
+					+ mr.getPercentA() + COMMA
+					+ QUOTE + mr.getProjectB() + QUOTE + COMMA 
+					+ QUOTE + mr.getStudentB()+ QUOTE + COMMA
+					+ mr.getPercentB();
 			records.add(str);
 		}
 		return records;
