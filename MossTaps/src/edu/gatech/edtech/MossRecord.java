@@ -32,6 +32,47 @@ public class MossRecord implements Comparable<MossRecord> {
 		this.percentB = percentB;
 	}
 
+	public MossRecord(String studentA, String studentB, String mossCompareLink, int linesMatched ) {
+		super();
+		this.studentA = studentA;
+		this.studentB = studentB;
+		this.mossCompareLink = mossCompareLink;
+		this.linesMatched = linesMatched;
+	}
+
+	public void setStudentA(String studentA) {
+		this.studentA = studentA;
+	}
+	public void setStudentB(String studentB) {
+		this.studentB = studentB;
+	}
+	public void setMossCompareLink(String mossCompareLink) {
+		this.mossCompareLink = mossCompareLink;
+	}
+	public void setProjectA(String projectA) {
+		this.projectA = projectA;
+	}
+	public void setProjectB(String projectB) {
+		this.projectB = projectB;
+	}
+	public void setCurrentProjectA(boolean isCurrentProjectA) {
+		this.isCurrentProjectA = isCurrentProjectA;
+	}
+	public void setCurrentProjectB(boolean isCurrentProjectB) {
+		this.isCurrentProjectB = isCurrentProjectB;
+	}
+	public void setLinesMatched(int linesMatched) {
+		this.linesMatched = linesMatched;
+	}
+	public void setPercentA(int percentA) {
+		this.percentA = percentA;
+	}
+	public void setPercentB(int percentB) {
+		this.percentB = percentB;
+	}
+	public static void setStudentComparator(Comparator<MossRecord> studentComparator) {
+		StudentComparator = studentComparator;
+	}
 	@Override
 	public int compareTo(MossRecord other) {
 //		return this.commonLines-other.commonLines; // ascending order
@@ -43,7 +84,7 @@ public class MossRecord implements Comparable<MossRecord> {
 
 			@Override
 			public int compare(MossRecord arg0, MossRecord arg1) {
-				// TODO Auto-generated method stub
+				// TODO Implement StudentComparator
 				
 				//ascending order return arg0.compareTo(arg1)
 				//descending order return arg1.compareTo(arg0)

@@ -89,7 +89,7 @@ public class ParametersStore {
 		tempLang.add(new SoftwareLanguage("VisualBasic","vb","vb"));
 		tempLang.add(new SoftwareLanguage("CSharp","cs","csharp"));
 		tempLang.add(new SoftwareLanguage("JavaScript","js","javascript"));
-		//TODO LOW add the others
+		//TODO add other languages
 		mossLanguages = Collections.unmodifiableList(tempLang);
 	}
 	private Properties defaultProps = new Properties();
@@ -270,7 +270,6 @@ public class ParametersStore {
 
 	public String getUploadFolder() {
 		return applicationProps.getProperty("uploadFolder");
-		//TODO remove?
 	}
 	
 	public Properties getMossProperties(SoftwareLanguage language){

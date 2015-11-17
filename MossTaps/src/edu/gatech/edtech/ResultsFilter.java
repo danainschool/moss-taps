@@ -13,60 +13,56 @@ import java.util.List;
 public class ResultsFilter {
 	private static final String CSV_HEADER = 
 			"Lines Matched,Moss Link,"
-			+"Student1,Project1,Pct1,"
-			+"Student2,Project2,Pct2";
+					+"Student1,"
+					+"Student2";
+	//TODO add csv fields
+//	+"Student1,Project1,Pct1,"
+//	+"Student2,Project2,Pct2";
 	private static final String COMMA = ",";
-	private static final List<String> TEST_RECORDS = new ArrayList<String>(Arrays.asList(
-			"Lines Matched ,Pct-A,Pct-B,StudentA,StudentB,link",
-			"995,(84%),(84%),P2-2015/Brown,_Audra,P2-2015/Brown,_Audra,http://moss.stanford.edu/results/908919439/match0.html",
-			"840,(99%),(99%),2015/Barriere,_Jared,2015/Barriere,_Jared,http://moss.stanford.edu/results/908919439/match1.html",
-			"788,(99%),(99%),/Birmingham,_Phillip,/Birmingham,_Phillip,http://moss.stanford.edu/results/908919439/match2.html"
-			));
+	private static final String QUOTE = "\"";
 
 	public static void toCSV(List<MossReply> mossResults, SoftwareLanguage language) throws IOException {
 		List<MossRecord> mDB = new ArrayList<MossRecord>();
-		String outFileName = "MT_"+ MyUtils.getDateString()+ "_" + language.getLanguageName();
+		String outFileName = "MT_"+ MyUtils.getDateString()+ "_" + language.getLanguageName() + ".csv";
 		for (MossReply reply : mossResults) {
 			try {
-				mDB.addAll(extractRelevant(reply));
+				mDB.addAll(reply.extractMossLinks());
 			} catch (Exception e) {
-//				System.out.println("Unable to extract data from "+reply.getMossURL().toString());
-//				e.printStackTrace();
+				System.out.println("Unable to extract data from "+reply.getMossURL().toString());
+				e.printStackTrace();
 				// for now create a dog and pony file for demo
-				List<String> records = TEST_RECORDS;
-				saveCsvResults(outFileName,records);
-				return;
 			}
 		}
 		mDB = removeDuplicates(mDB);
-		Collections.sort(mDB);  //if soring by the lines num compareTo
+//		Collections.sort(mDB);  //if sorting by the lines num compareTo
 		List<String> records = stringify(mDB);
 		saveCsvResults(outFileName,records);
-	}
-
-	private static List<MossRecord> extractRelevant(MossReply reply) {
-		// TODO Auto-generated method stub
-		return null;
 	}
 
 	public static List<String> stringify(List<MossRecord> mDB) {
 		List<String> records = new ArrayList<String>();
 		records.add(CSV_HEADER);
 		for (MossRecord mr:mDB){
-			String str = mr.getLinesMatched() + COMMA + mr.getMossCompareLink() + COMMA
-					+mr.getStudentA() + COMMA + mr.getProjectA() + COMMA + mr.getPercentA() + COMMA
-					+mr.getStudentB() + COMMA + mr.getProjectB() + COMMA + mr.getPercentB();
+			// put strings in quotes
+			String str = mr.getLinesMatched() + COMMA 
+					+ QUOTE + mr.getMossCompareLink() + QUOTE + COMMA
+					+ QUOTE + mr.getStudentA() + QUOTE + COMMA 
+					+ QUOTE + mr.getStudentB()+ QUOTE;
+			//TODO add csv fields
+//			String str = mr.getLinesMatched() + COMMA + mr.getMossCompareLink() + COMMA
+//					+mr.getStudentA() + COMMA + mr.getProjectA() + COMMA + mr.getPercentA() + COMMA
+//					+mr.getStudentB() + COMMA + mr.getProjectB() + COMMA + mr.getPercentB();
 			records.add(str);
 		}
 		return records;
 	}
 
 	private static List<MossRecord> removeDuplicates(List<MossRecord> mDB) {
-		//TODO Implement
+		//TODO Implement removeDuplicates
 		return mDB;
 	}
 
-	private static void saveCsvResults(String filename, List<String> recordList) throws IOException {
+	public static void saveCsvResults(String filename, List<String> recordList) throws IOException {
 		PrintWriter pw = new PrintWriter(new FileWriter(filename));
 		for (String record : recordList) {
 			pw.println(record);

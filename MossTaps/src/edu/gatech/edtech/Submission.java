@@ -33,7 +33,7 @@ public class Submission {
 		this.validInfo = testInfoValid();
 	}
 	
-	public boolean submit() {	
+	public boolean submit() throws IOException {	
 		// collect listing of files by extension recursively
 		Collection<File> files = FileUtils.listFiles(new File(parentFolder),
 				new String[] {language.getExtension()}, true);
@@ -41,13 +41,13 @@ public class Submission {
 		Collection<File> baseFiles = FileUtils.listFiles(new File(baseFolder),
 				new String[] {language.getExtension()}, true);
 		
-		//TODO FUTURE: split non-current directories if too large into multiple
+		//TODO ENHANCEMENT split non-current directories if too large into multiple
 		// submission groups and put submission into loop
 		
 		return successful = singleSubmit(files, baseFiles);
 	}
 
-	private boolean singleSubmit(Collection<File> files, Collection<File> baseFiles) {
+	private boolean singleSubmit(Collection<File> files, Collection<File> baseFiles) throws IOException {
 		// set up and start moji socket client for Moss
 		SocketClient socketClient = new SocketClient(
 				mossProps.getProperty("server"),

@@ -10,7 +10,6 @@ import org.apache.commons.io.FileUtils;
 public class Unzipper {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Collection<File> files = FileUtils.listFiles(
 				new File("C:/Users/Dana/Documents/GitHub/MOSS-TAPS/MossTaps/data/Original"),
 				new String[] { "zip" }, true);
