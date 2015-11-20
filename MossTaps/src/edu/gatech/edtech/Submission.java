@@ -37,7 +37,7 @@ public class Submission {
 		// collect listing of files by extension recursively
 		Collection<File> files = FileUtils.listFiles(new File(parentFolder),
 				new String[] {language.getExtension()}, true);
-		showFiles(files);
+//		showFiles(files);
 		Collection<File> baseFiles = FileUtils.listFiles(new File(baseFolder),
 				new String[] {language.getExtension()}, true);
 		
@@ -95,7 +95,7 @@ public class Submission {
         }
 
         //finished uploading, tell server to check files
-        System.out.println("sending query");
+        System.out.println("sending query to "+mossProps.getProperty("server"));
         try {
 			socketClient.sendQuery();
 		} catch (MossException e) {

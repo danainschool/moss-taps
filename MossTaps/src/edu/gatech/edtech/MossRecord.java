@@ -79,7 +79,7 @@ public class MossRecord implements Comparable<MossRecord> {
 	}
 	@Override
 	public int compareTo(MossRecord other) {
-//		return this.commonLines-other.commonLines; // ascending order
+//		return this.linesMatched-other.linesMatched; // ascending order
 		return other.linesMatched-this.linesMatched; // descending order
 	}
 

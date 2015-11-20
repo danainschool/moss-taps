@@ -27,7 +27,7 @@ public class SeriesCollection {
 		this.seriesFolder = seriesFolder;
 		this.uploadFolder = uploadFolder;
 		this.projectFolders = new File(seriesFolder).listFiles((FilenameFilter) DirectoryFileFilter.DIRECTORY);
-		showFiles(projectFolders);
+		showProjects();
 	}
 
 	public int moveToUpload() throws IOException {
@@ -55,7 +55,7 @@ public class SeriesCollection {
 
 	public String clean(String name) {
 		// replace the white space with underscore and prepend with prefix
-		name = name.replaceAll("\\s","_");
+		name = name.replaceAll("\\s","").replaceAll(",", "_");
 		return name;
 	}
 
@@ -81,9 +81,9 @@ public class SeriesCollection {
 		}
 		
 	}
-	private void showFiles(File[] folders) {
-		System.out.println("Showing projects");
-		for (File folder : folders) {
+	private void showProjects() {
+		System.out.println("Showing "+this.prefix+" projects");
+		for (File folder : projectFolders) {
 			System.out.println(folder.getAbsolutePath());
 		}
 	}

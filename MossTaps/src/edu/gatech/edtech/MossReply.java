@@ -75,6 +75,7 @@ public class MossReply {
 	}
 	public void setMossURL(URL mossURL) {
 		this.mossURL = mossURL;
+		this.urlString = mossURL.toString();
 	}
 	public void setLanguage(SoftwareLanguage language) {
 		this.language = language;

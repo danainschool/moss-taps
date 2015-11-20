@@ -57,7 +57,7 @@ public class SeriesCollectionTest {
 		String comment = "test replace white space and prepend";
 		String testValue = "C_squashed_name";
 		SeriesCollection sc = new SeriesCollection(sList,prefix,currentFolderName,uploadFolderName);
-		String testResult = sc.prependClean("squashed name");
+		String testResult = sc.prependClean("squashed, name");
 		assertEquals(comment,testValue,testResult);
 	}
 

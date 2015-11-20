@@ -53,7 +53,7 @@ public class ResultsFilterTest {
 	@Test
 	public void testStringify() {
 		String comment = "test stringify method abbreviated";
-		String testValue = "25,\"moss.stanford.edu\",\"projA\",\"stuA\",50,\"projB\",\"stuB\",60";
+		String testValue = "25,moss.stanford.edu,\"projA\",\"stuA\",50,\"projB\",\"stuB\",60";
 		List<MossRecord> testList = new ArrayList<MossRecord>();
 		testList.add(mRecord);
 		List<String> testCsv = ResultsFilter.stringify(testList);
