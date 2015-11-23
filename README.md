@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # MOSS-TAPS
 =======
 ## MOSS-TAPS
@@ -56,4 +55,3 @@ Current
 ## Attribution
 ## License
 MOSS-TAPS is under the MIT License.  Please see corresponding [license file] (https://github.com/danainschool/moss-taps/blob/master/LICENSE).
->>>>>>> branch 'master' of https://github.com/danainschool/moss-taps.git
