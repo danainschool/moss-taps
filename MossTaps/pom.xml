@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>MossTaps</groupId>
-  <artifactId>MossTaps</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <groupId>us.sheahen</groupId>
+  <artifactId>moss-taps</artifactId>
+  <version>0.0.1</version>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <testSourceDirectory>test</testSourceDirectory>
@@ -42,4 +42,18 @@
   		<version>1.0.1</version>
   	</dependency>
   </dependencies>
+  <name>MOSS-TAPS</name>
+  <url>http://www.sheahen.us/moss-taps/</url>
+  <description>MOSS-TAPS us an unofficial file handler for the MOSS software plagiarism detection service.  MOSS-TAPS has the followin key features:
+-Pure Java uses the MOJI Java socket
+-Preprocesses multiple projects from multiple semesters
+-Preprocesses nested and zipped files
+-Allows persistent configuration with a configuration file
+-Filters results so that only current semester results are shown with no student redundancy between projects.</description>
+  <inceptionYear>2015</inceptionYear>
+  <scm>
+  	<url>git@github.com:danainschool/moss-taps.git</url>
+  	<connection>scm:git:git@github.com:danainschool/moss-taps.git</connection>
+  	<developerConnection>scm:git:git@github.com:danainschool/moss-taps.git</developerConnection>
+  </scm>
 </project>
