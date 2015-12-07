@@ -63,7 +63,6 @@ public class ParametersStore {
 		tempMap.put("haskell", "false");
 		tempMap.put("fortran", "false");
 		tempMap.put("ascii", "false");
-		tempMap.put("ascii", "false");
 		tempMap.put("vhdl", "false");
 		tempMap.put("perl", "false");
 		tempMap.put("matlab", "false");
@@ -75,6 +74,7 @@ public class ParametersStore {
 		tempMap.put("modula2", "false");
 		tempMap.put("javascript", "false");
 		tempMap.put("plsql", "false");
+		tempMap.put("a8086", "false");
 		initialProps = Collections.unmodifiableMap(tempMap);
 	}
 	
@@ -89,7 +89,22 @@ public class ParametersStore {
 		tempLang.add(new SoftwareLanguage("VisualBasic","vb","vb"));
 		tempLang.add(new SoftwareLanguage("CSharp","cs","csharp"));
 		tempLang.add(new SoftwareLanguage("JavaScript","js","javascript"));
-		//TODO add other languages
+		tempLang.add(new SoftwareLanguage("ML","ml","ml"));
+		tempLang.add(new SoftwareLanguage("Pascal","pas","pascal"));
+		tempLang.add(new SoftwareLanguage("Ada","ada","ada"));
+		tempLang.add(new SoftwareLanguage("Lisp","lisp","lisp"));
+		tempLang.add(new SoftwareLanguage("Scheme","scm","scheme"));
+		tempLang.add(new SoftwareLanguage("Haskell","hs","haskell"));
+		tempLang.add(new SoftwareLanguage("Fortran","for","fortran"));
+		tempLang.add(new SoftwareLanguage("ASCII","asc","ascii"));
+		tempLang.add(new SoftwareLanguage("VHDL","vhdl","vhdl"));
+		tempLang.add(new SoftwareLanguage("Perl","pl","perl"));
+		tempLang.add(new SoftwareLanguage("MIPS","s","mips"));
+		tempLang.add(new SoftwareLanguage("Prolog","prlg","prolog"));
+		tempLang.add(new SoftwareLanguage("Spice","cir","spice"));
+		tempLang.add(new SoftwareLanguage("Modula2","mod","modula2"));
+		tempLang.add(new SoftwareLanguage("A8086","asm","a8086"));
+		tempLang.add(new SoftwareLanguage("PL/SQL","sql","plsql"));
 		mossLanguages = Collections.unmodifiableList(tempLang);
 	}
 	private Properties defaultProps = new Properties();
@@ -158,7 +173,7 @@ public class ParametersStore {
     		input = new FileInputStream(filename);
     		applicationProps.load(input); 
     	} catch (IOException ex) {
-    		ex.printStackTrace();
+//    		ex.printStackTrace();
         } finally{
         	if(input!=null){
         		try {

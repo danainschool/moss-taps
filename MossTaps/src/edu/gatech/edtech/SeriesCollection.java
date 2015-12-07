@@ -3,7 +3,6 @@ package edu.gatech.edtech;
 import java.io.File;
 import java.io.FilenameFilter;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
@@ -12,7 +11,6 @@ import net.lingala.zip4j.exception.ZipException;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.filefilter.DirectoryFileFilter;
-import org.apache.commons.io.filefilter.FalseFileFilter;
 
 public class SeriesCollection {
 	String seriesFolder;
@@ -88,14 +86,14 @@ public class SeriesCollection {
 		}
 	}
 		
-	private static void showFiles(Collection<File> files) {
-		System.out.println("Showing Files");
-		for (File file : files) {
-			System.out.println(file.getAbsolutePath());
-		}
-		
-	}
-
+//	private static void showFiles(Collection<File> files) {
+//		System.out.println("Showing Files");
+//		for (File file : files) {
+//			System.out.println(file.getAbsolutePath());
+//		}
+//		
+//	}
+//
 	public String getSeriesFolder() {
 		return seriesFolder;
 	}

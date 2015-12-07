@@ -37,7 +37,7 @@ public class Submission {
 		// collect listing of files by extension recursively
 		Collection<File> files = FileUtils.listFiles(new File(parentFolder),
 				new String[] {language.getExtension()}, true);
-//		showFiles(files);
+//		showFiles(files);  //uncomment to see uploading
 		Collection<File> baseFiles = FileUtils.listFiles(new File(baseFolder),
 				new String[] {language.getExtension()}, true);
 		
