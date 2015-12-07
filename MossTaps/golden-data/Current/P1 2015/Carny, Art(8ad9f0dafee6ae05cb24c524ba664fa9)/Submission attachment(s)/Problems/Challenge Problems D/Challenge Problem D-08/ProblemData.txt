@@ -1,4 +1,0 @@
-3x3
-1
-true
-false
