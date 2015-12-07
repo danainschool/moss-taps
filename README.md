@@ -22,6 +22,8 @@ MOSS-TAPS is an unofficial tool for submitting multiple assignments to the MOSS 
 ## Quick Start
 
 #### 1. Preparation
+Set up past and current projects in the following file structures:
+
 ```
 Original
 |- Project 1
@@ -51,7 +53,16 @@ Current
       |- files.java, files.py, files.zip, directories, etc.
    |- ...
 ```
+### Multi-platform JAR files
+* To run MOSS-TAPS on any platform, download the zip file `MossTaps.zip` which contains MossTaps.jar, a directory of libraries MossTaps_lib, and an empty directory `data`.  
+* Load the previously prepared `Original` and `Current` project directories under the `data` directory.  If there are starter code files that should be excluded, these may be loaded in a directory under `data` named `Base`.
+* from a terminal window, navigate to the directory containing `MossTaps.jar`, the `MossTaps_lib` directory, and the `data` directory.  
+*  Execute  the jar with the command `java -jar MossTaps.jar`
+*  If this is the first time MossTaps has been run, the program will ask for the 9-digit userID.
+*  The program will run, giving some updates as to when files are uploaded and when results have been received from MOSS.  Final results will be placed CSV files tagged by date.
+
 ## Documentation
+In addition to this README, the mtconfig-sample.txt file provides details on the default configuration values and how they may be overwritten. 
 ## Attribution
 ## License
 MOSS-TAPS is under the MIT License.  Please see corresponding [license file] (https://github.com/danainschool/moss-taps/blob/master/LICENSE).
