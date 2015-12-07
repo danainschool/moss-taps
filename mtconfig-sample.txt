@@ -1,0 +1,66 @@
+############################
+## MOSS-TAPS sample config file
+############################
+#The following parameters are automatically set to these values in MOSS-TAPS
+#This sample config file is provided for information
+#To change any of the values, set the parameter=value on an uncommented (no #) line
+#For example, to check lisp language, add (uncommented)
+#lisp=true
+#For more information about various MOSS parameters, see the MOSS
+#information at https://theory.stanford.edu/~aiken/moss/
+#
+#Note that initially, no userid is set.  The first time MOSS-TAPS is run
+#the userid will be requested and must be entered to proceed successfully
+#
+############################
+#MOSS-TAPS specific parameters
+############################
+#baseFolder=data/Base
+#currentFolder=data/Current
+#originalFolder=data/Original
+#uploadFolder=data/Upload
+#linesCommonThreshold=100
+#inflationNeeded=true
+############################
+#Moss parameters
+############################
+#userID=
+##max until ignored by Moss
+#optM=10
+##submission by directories
+#optD=1
+##do not use experimental Moss
+#optX=0
+## return top 250
+#optN=250
+## comment
+#optC=
+#server=moss.stanford.edu
+#port=7690
+############################
+#Moss languages supported
+############################
+#java=true
+#python=true
+#c=false
+#cc=false
+#ml=false
+#pascal=false
+#ada=false
+#lisp=false
+#scheme=false
+#haskell=false
+#fortran=false
+#ascii=false
+#vhdl=false
+#perl=false
+#matlab=false
+#mips=false
+#prolog=false
+#spice=false
+#vb=false
+#csharp=false
+#modula2=false
+#javascript=false
+#plsql=false
+#a8086=false
