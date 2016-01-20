@@ -1,7 +1,7 @@
 # MOSS-TAPS
 =======
 ## MOSS-TAPS
-A **MOSS** **T**ool for **A**ddressing **P**lagiarism at **S**cale
+A **MOSS** **T**ool **A**ddressing **P**lagiarism at **S**cale
 
 MOSS-TAPS is an unofficial tool for submitting multiple assignments to the MOSS software plagiarism detection site hosted at [Alex Aiken's Stanford Moss page] (http://theory.stanford.edu/~aiken/moss/).  MOSS-TAPS provides the following feature beyond those provided with the official script:
 *   Pure Java implementation for portability, using the [Java MOJI submission script by Bjoern Zielke] (https://github.com/nordicway/moji)
