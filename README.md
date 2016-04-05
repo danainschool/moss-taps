@@ -21,7 +21,7 @@ MOSS-TAPS is an unofficial tool for submitting multiple assignments to the MOSS 
 ## Installation
 ## Quick Start
 
-#### 1. Preparation
+### 1. Preparation
 Set up past and current projects in the following file structures:
 
 ```
