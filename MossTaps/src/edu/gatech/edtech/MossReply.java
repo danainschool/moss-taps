@@ -44,10 +44,10 @@ public class MossReply {
 					record.setLinesMatched(endNumber(cells.get(2).text()));
 				}
 				// only add if there was data
-				// and not the same student
+				// and not the same student (not case sensitive)
 				// and at least one current project
 				if(!(record.getStudentA()== null)
-						&& !(record.getStudentA().equals(record.getStudentB()))
+						&& !(record.getStudentA().toLowerCase().equals(record.getStudentB().toLowerCase()))
 						&& record.hasCurrentProject()		
 						) {
 					records.add(record);

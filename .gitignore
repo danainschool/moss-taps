@@ -127,6 +127,7 @@ proguard/
 
 #MOSS-TAPS changeable data
 data/
+mtconfig.txt
 =======
 *.class
 

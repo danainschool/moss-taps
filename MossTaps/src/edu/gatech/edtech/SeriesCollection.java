@@ -75,7 +75,8 @@ public class SeriesCollection {
 			ZipFile zipFile = new ZipFile(source);
 			zipFile.extractAll(destination);
 		} catch (ZipException e) {
-			e.printStackTrace();
+			System.err.println("Bad Zipfile: "+source);
+//			e.printStackTrace();
 		}
 		
 	}

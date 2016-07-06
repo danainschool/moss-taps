@@ -15,7 +15,7 @@ public class ResultsFilter {
 	private static final String COMMA = ",";
 	private static final String QUOTE = "\"";
 
-	public static void toCSV(List<MossReply> mossResults, SoftwareLanguage language) throws IOException {
+	public static void toCSV(List<MossReply> mossResults, SoftwareLanguage language, ParametersStore pStore) throws IOException {
 		List<MossRecord> mDB = new ArrayList<MossRecord>();
 		String outFileName = "MT_"+ MyUtils.getDateString()+ "_" + language.getLanguageName() + ".csv";
 		for (MossReply reply : mossResults) {
@@ -28,6 +28,7 @@ public class ResultsFilter {
 			}
 		}
 		mDB = removeDuplicates(mDB);
+		mDB = removeBelowLinesCommonThreshold(pStore.getApplicationProps().getProperty("linesCommonThreshold"),mDB);
 		Collections.sort(mDB);  //if sorting by the lines num compareTo
 		List<String> records = stringify(mDB);
 		saveCsvResults(outFileName,records);
@@ -49,6 +50,11 @@ public class ResultsFilter {
 			records.add(str);
 		}
 		return records;
+	}
+
+	private static List<MossRecord> removeBelowLinesCommonThreshold(String numString, List<MossRecord> mDB) {
+		// TODO Auto-generated method stub
+		return mDB;
 	}
 
 	private static List<MossRecord> removeDuplicates(List<MossRecord> mDB) {

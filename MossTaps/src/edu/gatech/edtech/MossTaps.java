@@ -21,11 +21,15 @@ public class MossTaps {
 		
 		// set up the originals and current directories for submission
 		canon = new SeriesCollection(pStore.getLanguagesTested(),ORIGINAL_PREFIX, pStore.getOriginalFolder(),pStore.getUploadFolder());
-		canon.inflateZips();
+		if (pStore.getApplicationProps().getProperty("inflationNeeded").equals("true")){
+			canon.inflateZips();			
+		}
 		canon.moveToUpload();
 		
 		current = new SeriesCollection(pStore.getLanguagesTested(),CURRENT_PREFIX,pStore.getCurrentFolder(),pStore.getUploadFolder());
-		current.inflateZips();
+		if (pStore.getApplicationProps().getProperty("inflationNeeded").equals("true")){
+			current.inflateZips();
+		}
 		current.moveToUpload();
 		
 		// submit the queries for each language and collect the URLs from Moss
@@ -39,7 +43,7 @@ public class MossTaps {
 				mossResults.addAll(mossSub.getReplies());
 			}
 			// convert the results to csv file form MT2015_1115_Python.csv
-			ResultsFilter.toCSV(mossResults,language);		
+			ResultsFilter.toCSV(mossResults,language,pStore);		
 		}
 	}
 }
