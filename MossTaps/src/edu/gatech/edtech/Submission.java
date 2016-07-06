@@ -20,26 +20,35 @@ public class Submission {
 	private boolean validInfo = false;
 	private boolean successful = false;
 	private List<MossReply> replies = new ArrayList<MossReply>();
-	private String parentFolder;
-	private String baseFolder;
+	private File parentFolder;
+	private File baseFolder;
 
-	public Submission(String parentFolder, String baseFolder, SoftwareLanguage language, Properties mossProps) throws Exception {
+	public Submission(String parentFolderName, String baseFolderName, SoftwareLanguage language, Properties mossProps) throws Exception {
 		this.mossProps = mossProps;
 		this.language = language;
-		this.parentFolder = parentFolder;
-		this.baseFolder = baseFolder;
+		this.parentFolder = new File(parentFolderName);
+		this.baseFolder = new File(baseFolderName);
+		
 		this.mossProps.setProperty("language", language.getParameter());
-		this.mossProps.setProperty("optC", language.getLanguageName()+" : "+parentFolder);
+		this.mossProps.setProperty("optC", language.getLanguageName()+" : "+parentFolderName);
 		this.validInfo = testInfoValid();
 	}
 	
 	public boolean submit() throws IOException {	
 		// collect listing of files by extension recursively
-		Collection<File> files = FileUtils.listFiles(new File(parentFolder),
+		Collection<File> files = new ArrayList<File>();
+		if(parentFolder.exists()){
+			files= FileUtils.listFiles(parentFolder,
 				new String[] {language.getExtension()}, true);
+		}
+		else System.err.println("**ERROR** Upload Directory "+parentFolder.getName()+ " does not exist. Cannot proceed.");
 //		showFiles(files);  //uncomment to see uploading
-		Collection<File> baseFiles = FileUtils.listFiles(new File(baseFolder),
-				new String[] {language.getExtension()}, true);
+		
+		Collection<File> baseFiles = new ArrayList<File>();
+		if(baseFolder.exists()){
+			baseFiles = FileUtils.listFiles(this.baseFolder,
+					new String[] {language.getExtension()}, true);			
+		}
 		
 		//TODO ENHANCEMENT split non-current directories if too large into multiple
 		// submission groups and put submission into loop
@@ -115,10 +124,8 @@ public class Submission {
 	}
 	
 	public boolean testInfoValid() {
-		File f = new File(parentFolder);
-		if (!f.exists()) return false;
-		f = new File(baseFolder);
-		if (!f.exists()) return false;
+		if (!parentFolder.exists()) return false;
+		if (!baseFolder.exists()) return false;
 		return true;
 	}
 
@@ -126,10 +133,10 @@ public class Submission {
 		return language;
 	}
 
-	public String getParentFolder() {
-		return parentFolder;
-	}
-
+//	public String getParentFolder() {
+//		return parentFolder;
+//	}
+//
 	public String getComment() {
 		return mossProps.getProperty("optC");
 	}

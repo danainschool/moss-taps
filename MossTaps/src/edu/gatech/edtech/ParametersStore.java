@@ -112,6 +112,10 @@ public class ParametersStore {
 	private List<SoftwareLanguage> languagesTested = new ArrayList<SoftwareLanguage>();
 	private boolean validLanguages = false;
 	private boolean validUserID = false;
+	private boolean validBaseFolder = false;
+	private boolean validCurrentFolder = false;
+	private boolean validOriginalFolder = false;
+	private boolean validUploadFolder = false;
 	private boolean validSettings = false;	
 
 	public ParametersStore() {
@@ -187,7 +191,6 @@ public class ParametersStore {
 
 	private void validateSettings() {
     	// get the userid if not already loaded
-		//TODO ERRORCHECKS check on directories
     	String userID=applicationProps.getProperty("userID");
     	validUserID = true;
     	if (userID.isEmpty()){
@@ -200,9 +203,23 @@ public class ParametersStore {
     	    	applicationProps.setProperty("userID", userID);
     		}
     	}
+    	
+		// check on existence of folders
+    	if (new File(getBaseFolder()).isDirectory()) validBaseFolder = true;
+    	else System.err.println("**WARNING** Base Folder "+getBaseFolder()+" does not exist - Proceeding...");
+    	if (new File(getOriginalFolder()).isDirectory()) validOriginalFolder = true;
+    	else System.err.println("**WARNING** Original Folder "+getOriginalFolder()+" does not exist - Proceeding...");
+    	if (new File(getCurrentFolder()).isDirectory()) validCurrentFolder = true;
+    	else System.err.println("**ERROR** Current Folder "+getCurrentFolder()+" does not exist! This folder must exist!");
+    	if (new File(getUploadFolder()).isDirectory()) validUploadFolder = true;
+    	else System.err.println("**ERROR** Upload Folder "+getUploadFolder()+" does not exist! This folder must exist!");
+    	   	
     	// make sure languages non-empty
     	if (!languagesTested.isEmpty()) validLanguages = true;
-    	if (validLanguages && validUserID) validSettings = true;
+    	
+    	// test for required items
+    	if (validLanguages && validUserID && validCurrentFolder &&
+    			validUploadFolder) validSettings = true;
 	}
 
 	private String userInput(String userQuery) {
@@ -306,5 +323,17 @@ public class ParametersStore {
 		if (applicationProps.getProperty("collectionNeeded").equalsIgnoreCase("false"))
 			return false;
 		else return true;
+	}
+
+	public boolean isValidBaseFolder() {
+		return validBaseFolder;
+	}
+
+	public boolean isValidOriginalFolder() {
+		return validOriginalFolder;
+	}
+
+	public boolean isValidUploadFolder() {
+		return validUploadFolder;
 	}
 }
