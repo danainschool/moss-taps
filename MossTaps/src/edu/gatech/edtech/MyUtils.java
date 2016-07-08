@@ -8,7 +8,7 @@ public class MyUtils {
 
 	public static String getDateString(){
 		Date date = Calendar.getInstance().getTime();
-		SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd");
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd_HHmm");
 		return sdf.format(date);
 	}
 }
