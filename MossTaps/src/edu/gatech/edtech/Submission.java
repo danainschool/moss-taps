@@ -145,6 +145,7 @@ public class Submission {
 		return validInfo;
 	}
 
+	@SuppressWarnings("unused")
 	private static void showFiles(Collection<File> files) {
 		for (File file : files) {
 			System.out.println(file.getAbsolutePath());
